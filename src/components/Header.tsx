@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Image from "next/image";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,10 +30,12 @@ const Header = () => {
                 className="flex items-center space-x-2 text-gray-900 hover:text-gray-600 transition-colors"
               >
                 <span>{item.name}</span>
-                <img
+                <Image
                   src={item.icon}
                   className="w-5 h-5 object-contain"
                   alt={`${item.name} icon`}
+                  width={20}
+                  height={20}
                 />
               </a>
             ))}
@@ -41,18 +44,22 @@ const Header = () => {
           {/* Desktop Right Section */}
           <div className="hidden md:flex items-center space-x-6">
             <button className="p-2 rounded-full hover:bg-gray-100 transition-colors">
-              <img
+              <Image
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/61bcfbb34040b2b874529a69be28e4c0467c61e8?placeholderIfAbsent=true&apiKey=6b267fab1e0247f0ae3ff3bd3d42ebf2"
                 className="w-5 h-5"
                 alt="Search"
+                width={20}
+                height={20}
               />
             </button>
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 rounded-full bg-stone-100 flex items-center justify-center">
-                <img
+                <Image
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/928ab5a46e88bc1db5fbafde9f198191c6b83747?placeholderIfAbsent=true&apiKey=6b267fab1e0247f0ae3ff3bd3d42ebf2"
                   className="w-5 h-5"
                   alt="User"
+                  width={20}
+                  height={20}
                 />
               </div>
               <span className="text-sm font-medium text-gray-900">My Courses</span>
@@ -89,10 +96,12 @@ const Header = () => {
               </svg>
             </button>
             <button className="p-2 rounded-full hover:bg-gray-100">
-              <img
+              <Image
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/61bcfbb34040b2b874529a69be28e4c0467c61e8?placeholderIfAbsent=true&apiKey=6b267fab1e0247f0ae3ff3bd3d42ebf2"
                 className="w-5 h-5"
                 alt="Search"
+                width={20}
+                height={20}
               />
             </button>
           </div>
@@ -108,10 +117,12 @@ const Header = () => {
                 className="flex items-center space-x-2 px-4 py-2 text-gray-900 hover:bg-gray-100 rounded-md"
               >
                 <span>{item.name}</span>
-                <img
+                <Image
                   src={item.icon}
                   className="w-5 h-5 object-contain"
                   alt={`${item.name} icon`}
+                  width={20}
+                  height={20}
                 />
               </a>
             ))}

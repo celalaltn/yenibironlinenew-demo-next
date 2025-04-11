@@ -4,7 +4,6 @@ import Header from "./Header";
 import HeroBanner from "./HeroBanner";
 import CourseSection from "./CourseSection";
 import FeaturedContent from "./FeaturedContent";
-import TrendingCoursesList from "./TrendingCoursesList";
 import CategorySection from "./CategorySection";
 import InstructorSection from "./InstructorSection";
 import ExploreMoreSection from "./ExploreMoreSection";

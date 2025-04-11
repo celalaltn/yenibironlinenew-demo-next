@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Image from "next/image";
 
 const HeroBanner = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -50,11 +51,14 @@ const HeroBanner = () => {
 
             {/* Image Section */}
             <div className="w-full md:w-1/2">
-              <figure className="relative aspect-square md:aspect-auto">
-                <img
+              <figure className="relative aspect-square md:aspect-auto w-full h-[300px] md:h-[400px]">
+                <Image
                   src={currentSlideData.image}
-                  className="object-cover w-full h-full rounded-xl"
+                  className="object-cover rounded-xl"
                   alt="Course preview"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  priority
                 />
               </figure>
             </div>
@@ -69,10 +73,12 @@ const HeroBanner = () => {
           className="p-2 rounded-full bg-white shadow-lg hover:bg-gray-50 focus:outline-none pointer-events-auto transition-all duration-200"
           aria-label="Previous slide"
         >
-          <img
+          <Image
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/981e84bd73b03ed2520b0daafc648122f65318aa?placeholderIfAbsent=true&apiKey=6b267fab1e0247f0ae3ff3bd3d42ebf2"
             className="w-6 h-6"
             alt="Previous"
+            width={24}
+            height={24}
           />
         </button>
         <button
@@ -80,10 +86,12 @@ const HeroBanner = () => {
           className="p-2 rounded-full bg-white shadow-lg hover:bg-gray-50 focus:outline-none pointer-events-auto transition-all duration-200"
           aria-label="Next slide"
         >
-          <img
+          <Image
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/2da85c95e229f26842dcea814e49747da32f85a6?placeholderIfAbsent=true&apiKey=6b267fab1e0247f0ae3ff3bd3d42ebf2"
             className="w-6 h-6"
             alt="Next"
+            width={24}
+            height={24}
           />
         </button>
       </div>

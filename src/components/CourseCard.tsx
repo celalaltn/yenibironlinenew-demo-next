@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 
 interface CourseCardProps {
   imageSrc: string;
@@ -25,10 +26,12 @@ const CourseCard: React.FC<CourseCardProps> = ({
       <a href="#" className="block h-full">
         <div className="relative">
           <div className={`aspect-video ${isLarge ? 'sm:aspect-[16/10]' : 'sm:aspect-[4/3]'} overflow-hidden rounded-t-2xl`}>
-            <img
+            <Image
               src={imageSrc}
               className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
               alt={title}
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </div>
           <div className="absolute top-3 left-3">
