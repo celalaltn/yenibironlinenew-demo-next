@@ -17,8 +17,7 @@ const StudentProfile = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <MobileMenu />
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+         
           <Cart />
 
           <div className="rbt-page-banner-wrapper">
@@ -44,8 +43,7 @@ const StudentProfile = () => {
             </div>
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

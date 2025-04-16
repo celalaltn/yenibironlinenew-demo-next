@@ -46,8 +46,7 @@ const NewsletterPage = () => {
             </div>
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

@@ -17,8 +17,7 @@ const ReviewPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <MobileMenu />
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+         
           <Cart />
 
           <div className="rbt-page-banner-wrapper">
@@ -44,8 +43,7 @@ const ReviewPage = () => {
             </div>
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

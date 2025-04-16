@@ -19,7 +19,7 @@ const Viedo = ({ checkMatchCourses }) => {
 
   const disableVideo = [
     "/course-detail-2",
-    "/course-detail-3",
+    "/course-detail",
     "/course-detail-4",
     "/course-detail-5",
     "/course-detail-6",

@@ -16,8 +16,7 @@ const BlogWithSidebarPage = ({ getAllBlogs }) => {
     <>
       <Provider store={Store}>
         <Context>
-          <MobileMenu />
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+         
           <Cart />
 
           <Banner col="col-lg-12" text="All Courses" blogdata={getAllBlogs} />
@@ -27,8 +26,7 @@ const BlogWithSidebarPage = ({ getAllBlogs }) => {
             </div>
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

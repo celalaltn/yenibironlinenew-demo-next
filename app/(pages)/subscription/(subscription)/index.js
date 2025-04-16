@@ -18,8 +18,7 @@ const SubscriptionPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
-          <MobileMenu />
+         
           <Cart />
           <BreadCrumb title="Subscription" text="Subscription" />
 
@@ -31,7 +30,6 @@ const SubscriptionPage = () => {
             <AccordionThree />
           </div>
 
-          <FooterThree />
         </Context>
       </Provider>
     </>

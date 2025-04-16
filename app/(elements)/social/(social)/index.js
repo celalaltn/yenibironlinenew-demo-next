@@ -47,8 +47,7 @@ const SocialPage = () => {
             classList="social-icon social-default icon-naked"
           />
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

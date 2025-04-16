@@ -36,8 +36,7 @@ const AdmissionGuidePage = () => {
             </div>
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

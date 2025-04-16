@@ -29,7 +29,7 @@ const SingleCourseThree = ({ getParams }) => {
 
   useEffect(() => {
     if (postId && checkMatch === undefined) {
-      router.push("/course-card-2");
+      router.push("/course-detail");
     }
 
     sal({

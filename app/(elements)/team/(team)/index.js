@@ -69,8 +69,7 @@ const InstructorPage = () => {
             <TeamTen />
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

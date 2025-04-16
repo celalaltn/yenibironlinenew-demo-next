@@ -49,8 +49,7 @@ const AdvanceTabPage = () => {
             <AdvanceTabFive />
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

@@ -46,8 +46,7 @@ const SplitPage = () => {
           </div>
 
           <MobileMenu />
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

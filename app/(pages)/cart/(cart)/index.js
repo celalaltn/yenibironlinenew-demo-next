@@ -25,8 +25,7 @@ const CartPageLayout = () => {
             <CartPage />
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

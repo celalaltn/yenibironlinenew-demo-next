@@ -16,14 +16,11 @@ const WishlistPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <MobileMenu />
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <Cart />
 
           <Wishlist />
 
-          <Separator />
-          <FooterOne />
+        
         </Context>
       </Provider>
     </>

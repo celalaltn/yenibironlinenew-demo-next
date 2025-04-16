@@ -44,8 +44,7 @@ const SingleCoursePage = ({ getParams }) => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType={true} />
-          <MobileMenu />
+      
           <Cart />
 
           <CategoryHead category={filteredCourses[0]} />
@@ -58,8 +57,7 @@ const SingleCoursePage = ({ getParams }) => {
             </div>
           </div>
 
-          <Separator />
-          <FooterOne />
+      
         </Context>
       </Provider>
     </>

@@ -33,8 +33,7 @@ export default function SinglePostGallery({ getAllblog }) {
     <>
       <Provider store={Store}>
         <Context>
-          <MobileMenu />
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+         
           <Cart />
           <div className="rbt-overlay-page-wrapper">
             <BlogBreadCrumb matchedBlog={matchedBlog} />
@@ -59,8 +58,7 @@ export default function SinglePostGallery({ getAllblog }) {
             <Instagram />
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

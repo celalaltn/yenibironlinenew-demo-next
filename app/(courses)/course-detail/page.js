@@ -9,7 +9,7 @@ const CourseLayout = ({ params }) => {
 
   useEffect(() => {
     if (postId === undefined) {
-      router.push("/course-detail-3/13");
+      router.push("/course-detail/13");
     }
   }, []);
 };

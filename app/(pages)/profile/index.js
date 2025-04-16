@@ -35,8 +35,7 @@ const SingleProfile = ({ getParams }) => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="" headerType={true} />
-          <MobileMenu />
+       
           <Cart />
 
           <div className="rbt-page-banner-wrapper">
@@ -66,8 +65,7 @@ const SingleProfile = ({ getParams }) => {
             </div>
           </div>
 
-          <Separator />
-          <FooterOne />
+         
         </Context>
       </Provider>
     </>

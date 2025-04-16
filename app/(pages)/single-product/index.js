@@ -35,16 +35,14 @@ const SingleProductPage = ({ getParams }) => {
     <>
       <Provider store={Store}>
         <Context>
-          <MobileMenu />
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+         
           <Cart />
 
           <SingleProduct
             checkMatchProduct={checkMatch !== undefined ? checkMatch : ""}
           />
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

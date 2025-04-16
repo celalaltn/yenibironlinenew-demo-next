@@ -26,8 +26,7 @@ const StyleGuidePage = () => {
             <StyleGuide />
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

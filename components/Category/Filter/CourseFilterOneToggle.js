@@ -46,7 +46,7 @@ const CourseFilterOneToggle = ({ course, start, end }) => {
               }`}
             >
               <div className="rbt-card-img">
-                <Link href={`/course-details/${data.id}`}>
+                <Link href={`/course-detail/${data.id}`}>
                   <Image
                     src={data.courseImg}
                     width={355}
@@ -81,7 +81,7 @@ const CourseFilterOneToggle = ({ course, start, end }) => {
                 </div>
 
                 <h4 className="rbt-card-title">
-                  <Link href={`/course-details/${data.id}`}>
+                  <Link href={`/course-detail/${data.id}`}>
                     {data.courseTitle}
                   </Link>
                 </h4>
@@ -121,7 +121,7 @@ const CourseFilterOneToggle = ({ course, start, end }) => {
                   </div>
                   <Link
                     className="rbt-btn-link"
-                    href={`/course-details/${data.id}`}
+                    href={`/course-detail/${data.id}`}
                   >
                     Learn More<i className="feather-arrow-right"></i>
                   </Link>

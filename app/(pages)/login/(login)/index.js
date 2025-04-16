@@ -17,8 +17,7 @@ const LoginPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
-          <MobileMenu />
+         
           <Cart />
           <BreadCrumb title="Login & Register" text="Login & Register" />
 
@@ -34,7 +33,7 @@ const LoginPage = () => {
             <NewsletterThree />
           </div>
 
-          <FooterOne />
+        
         </Context>
       </Provider>
     </>

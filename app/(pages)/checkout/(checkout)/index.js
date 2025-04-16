@@ -25,8 +25,7 @@ const CheckoutPage = () => {
             <Checkout />
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

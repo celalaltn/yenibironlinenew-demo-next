@@ -42,8 +42,7 @@ const AcademyGallery = () => {
             </div>
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

@@ -48,8 +48,7 @@ const AccordionPage = () => {
             <Course title="Tuition & Fees" tag="COURSE PRICING" />
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

@@ -38,8 +38,7 @@ const BrandPage = () => {
             <BrandThree />
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

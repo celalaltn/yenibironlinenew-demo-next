@@ -26,8 +26,7 @@ const BlogGridMinimalPage = ({ getAllBlogs }) => {
     <>
       <Provider store={Store}>
         <Context>
-          <MobileMenu />
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+         
           <Cart />
 
           <Banner col="col-lg-12" text="All Blog" blogdata={getAllBlogs} />
@@ -43,8 +42,7 @@ const BlogGridMinimalPage = ({ getAllBlogs }) => {
             </div>
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

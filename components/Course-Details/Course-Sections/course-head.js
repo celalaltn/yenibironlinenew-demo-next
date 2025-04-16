@@ -53,7 +53,7 @@ const CourseHead = ({ checkMatch }) => {
         ""
       )}
 
-      {pathname === `/course-detail-3/${path.courseId}` ? (
+      {pathname === `/course-detail/${path.courseId}` ? (
         <>
           <div className="breadcrumb-inner">
             <Image

@@ -24,8 +24,7 @@ const InstagramPage = () => {
             <Instagram />
           </div>
           <MobileMenu />
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

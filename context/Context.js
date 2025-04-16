@@ -81,7 +81,6 @@ const Context = ({ children }) => {
           <HeaderStyleNine   headerType="" />
           <MobileMenu />
       {children}
-
       <Separator />
       <FooterOne />
 

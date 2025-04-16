@@ -58,8 +58,7 @@ const CounterPage = () => {
             <CounterSix />
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

@@ -16,14 +16,13 @@ const PrivacyPolicyPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
-          <MobileMenu />
+       
           <Cart />
 
           <PrivacyPolicy />
           <Instagram />
 
-          <FooterOne />
+         
         </Context>
       </Provider>
     </>

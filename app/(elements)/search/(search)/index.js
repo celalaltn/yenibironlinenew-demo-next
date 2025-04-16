@@ -31,8 +31,7 @@ const SearchPage = () => {
             <SearchThree />
           </div>
           <MobileMenu />
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

@@ -23,8 +23,7 @@ const CategoriesPage = () => {
 
           <Categories />
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

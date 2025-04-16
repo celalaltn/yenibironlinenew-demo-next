@@ -56,8 +56,7 @@ const CallToActionPage = () => {
             </div>
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

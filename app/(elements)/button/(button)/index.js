@@ -24,8 +24,7 @@ const ButtonPage = () => {
 
           <Button />
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

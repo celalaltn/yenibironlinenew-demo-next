@@ -26,8 +26,7 @@ const ListStylePage = () => {
             <ListStyle />
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

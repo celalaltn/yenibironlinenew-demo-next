@@ -17,8 +17,7 @@ const SettingPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <MobileMenu />
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+         
           <Cart />
 
           <div className="rbt-page-banner-wrapper">
@@ -44,8 +43,7 @@ const SettingPage = () => {
             </div>
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

@@ -47,8 +47,7 @@ const PricingPage = () => {
             <PricingFive title="Style Four" tag="COURSE PRICING" />
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

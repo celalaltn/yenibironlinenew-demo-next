@@ -31,8 +31,7 @@ const TeacherPage = () => {
             <TeacherGallery />
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

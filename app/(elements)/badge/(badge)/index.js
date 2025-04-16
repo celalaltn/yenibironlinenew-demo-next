@@ -27,8 +27,7 @@ const BadgePage = () => {
             <Badge />
           </div>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

@@ -29,8 +29,7 @@ const HeaderStylePage = () => {
             </div>
           </main>
 
-          <Separator />
-          <FooterOne />
+          
         </Context>
       </Provider>
     </>

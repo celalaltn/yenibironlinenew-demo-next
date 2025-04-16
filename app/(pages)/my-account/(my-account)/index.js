@@ -20,8 +20,7 @@ const MyAccountPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
-          <MobileMenu />
+         
           <Cart />
           <BreadCrumb title="My Account" text="My Account" />
 
@@ -45,8 +44,7 @@ const MyAccountPage = () => {
             </div>
           </div>
 
-          <Separator />
-          <FooterOne />
+        
         </Context>
       </Provider>
     </>
