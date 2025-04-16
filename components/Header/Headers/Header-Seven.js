@@ -71,20 +71,23 @@ const HeaderSeven = ({
                   </Link>
                 </div>
               </div>
-              <div className="header-info d-none d-lg-block">
+              {/* TAB ŞEKLİNDE CATEGORİES */}
+              {/* <div className="header-info d-none d-lg-block">
                 <Category />
-              </div>
+              </div> */}
             </div>
 
             <div className="rbt-main-navigation d-none d-xl-block">
               <Nav />
             </div>
             <div className="header-right">
-              <div className="rbt-btn-wrapper d-none d-xl-block">
+
+              {/* JOIN NOW BUTONU  */}
+              {/* <div className="rbt-btn-wrapper d-none d-xl-block">
                 <Link className={`rbt-btn ${btnClass}`} href="#">
                   <span data-text={`${btnText}`}>{btnText}</span>
                 </Link>
-              </div>
+              </div> */}
 
               <div className="mobile-menu-bar d-block d-xl-none">
                 <div className="hamberger">

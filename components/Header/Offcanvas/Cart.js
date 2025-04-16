@@ -1,5 +1,5 @@
 "use client";
-
+// BU COMPONENT MOBİL CART İÇİN !!!!!
 import React, { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";

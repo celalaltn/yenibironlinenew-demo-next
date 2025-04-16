@@ -41,8 +41,6 @@ const SingleEvent = ({ getParams }) => {
     <>
       <Provider store={Store}>
         <Context>
-          <MobileMenu />
-          <HeaderStyleTen headerSticky="" headerType={true} />
           <Cart />
 
           <div className="rbt-breadcrumb-default rbt-breadcrumb-style-3">
@@ -59,7 +57,6 @@ const SingleEvent = ({ getParams }) => {
             <CallToActionFour btnClass="rbt-btn btn-gradient hover-icon-reverse" />
           </div>
 
-          <FooterOne />
         </Context>
       </Provider>
     </>

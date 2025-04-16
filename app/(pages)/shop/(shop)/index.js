@@ -16,15 +16,11 @@ const ShopPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <MobileMenu />
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
-          <Cart />
+           <Cart />
 
           <Shop />
 
-          <Separator />
-          <FooterOne />
-        </Context>
+         </Context>
       </Provider>
     </>
   );

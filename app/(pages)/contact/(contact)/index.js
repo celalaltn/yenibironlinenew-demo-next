@@ -16,8 +16,7 @@ const ContactPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
-          <MobileMenu />
+        
           <Cart />
 
           <div className="rbt-conatct-area bg-gradient-11 rbt-section-gap">
@@ -49,7 +48,6 @@ const ContactPage = () => {
             ></iframe>
           </div>
 
-          <FooterOne />
         </Context>
       </Provider>
     </>

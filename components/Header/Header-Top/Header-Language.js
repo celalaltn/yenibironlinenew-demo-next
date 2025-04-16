@@ -52,6 +52,8 @@ const HeaderLanguage = () => {
         </ul>
       </div>
 
+      {/* PARA BİRİMİ */}
+{/* 
       <div className="header-info">
         <ul className="rbt-dropdown-menu currency-menu">
           <li className="has-child-menu">
@@ -73,7 +75,7 @@ const HeaderLanguage = () => {
             </ul>
           </li>
         </ul>
-      </div>
+      </div> */}
     </>
   );
 };

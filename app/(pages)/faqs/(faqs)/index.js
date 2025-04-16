@@ -18,8 +18,7 @@ const FaqsPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
-          <MobileMenu />
+       
           <Cart />
           <BreadCrumb title="Faqs" text="Faqs" />
 
@@ -28,8 +27,7 @@ const FaqsPage = () => {
           </div>
           <ContactForm gap="rbt-section-gap" />
 
-          <Separator />
-          <FooterOne />
+        
         </Context>
       </Provider>
     </>

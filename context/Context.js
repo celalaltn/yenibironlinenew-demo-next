@@ -1,5 +1,9 @@
 "use client";
 
+import Separator from "@/components/Common/Separator";
+import FooterOne from "@/components/Footer/Footer-One";
+import HeaderStyleNine from "@/components/Header/HeaderStyle-Nine";
+import MobileMenu from "@/components/Header/MobileMenu";
 import React, { createContext, useContext, useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -74,7 +78,13 @@ const Context = ({ children }) => {
         toggleTheme,
       }}
     >
+          <HeaderStyleNine   headerType="" />
+          <MobileMenu />
       {children}
+
+      <Separator />
+      <FooterOne />
+
     </CreateContext.Provider>
   );
 };

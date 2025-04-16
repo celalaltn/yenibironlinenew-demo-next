@@ -18,7 +18,7 @@ const HeaderTopMidThree = ({ flexDirection }) => {
             </div>
           </div>
 
-          <div className="rbt-header-sec-col rbt-header-center d-none d-md-block">
+          {/* <div className="rbt-header-sec-col rbt-header-center d-none d-md-block">
             <div className="rbt-header-content">
               <div className="header-info">
                 <div className="rbt-search-field">
@@ -31,7 +31,7 @@ const HeaderTopMidThree = ({ flexDirection }) => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="rbt-header-sec-col rbt-header-right">
             <div className="rbt-header-content">
@@ -40,9 +40,9 @@ const HeaderTopMidThree = ({ flexDirection }) => {
                   <li onClick={() => setCart(!cartToggle)}>
                     <Link
                       className="d-none d-xl-block rbt-cart-sidenav-activation"
-                      href="#"
+                      href="/cart"
                     >
-                      <i className="feather-shopping-cart"></i>Cart
+                      <i className="feather-shopping-cart"></i>Sepet
                     </Link>
                     <Link
                       className="d-block d-xl-none rbt-cart-sidenav-activation"
@@ -57,8 +57,8 @@ const HeaderTopMidThree = ({ flexDirection }) => {
               <div className="header-info">
                 <ul className="quick-access">
                   <li className="account-access rbt-user-wrapper right-align-dropdown d-none d-xl-block">
-                    <Link href="#">
-                      <i className="feather-user"></i>Admin
+                    <Link href="/login">
+                      <i className="feather-user"></i>Hesabım
                     </Link>
                     <User />
                   </li>
