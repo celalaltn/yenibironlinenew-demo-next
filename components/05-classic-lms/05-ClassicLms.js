@@ -25,17 +25,17 @@ const ClassicLms = ({ blogdata }) => {
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-8">
               <div className="content">
-                <div className="inner">
-                  <div className="rbt-new-badge rbt-new-badge-one">
+                <div className="inner" >
+                  <div className="rbt-new-badge rbt-new-badge-one" >
                     <span className="rbt-new-badge-icon">🏆</span> The Leader in
                     Online Learning
                   </div>
-                  <h1 className="title">
+                  <h1 className="" style={{ color: "var(--color-violet)" }}>
                     The Largest
                     <span className="color-primary px-3">Online Learning</span>
                     Platform for Drive Your Career.
                   </h1>
-                  <p className="description">
+                  <p style={{ color: "var(--color-violet)" }}>
                     This template includes all the necessary pages of the
                     onlineLorem. And you can be build Link
                     <strong>education template easily</strong>.
