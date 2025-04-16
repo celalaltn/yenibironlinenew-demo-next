@@ -13,7 +13,6 @@ const NotFound = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
 
           <div className="rbt-error-area bg-gradient-11 rbt-section-gap">
             <div className="error-area">
