@@ -16,7 +16,7 @@ import ServiceNine from "@/components/Services/Service-Nine";
 import ServiceTen from "@/components/Services/Service-Ten";
 import ServiceEleven from "@/components/Services/Service-Eleven";
 import ServiceTwelve from "@/components/Services/Service-Twelve";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
+
 import MobileMenu from "@/components/Header/MobileMenu";
 import FooterOne from "@/components/Footer/Footer-One";
 import BreadCrumb from "@/components/Common/BreadCrumb";

@@ -8,7 +8,7 @@ import MobileMenu from "@/components/Header/MobileMenu";
 
 import BreadCrumb from "@/components/Common/BreadCrumb";
 import FooterOne from "@/components/Footer/Footer-One";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
+
 import Progressbar from "@/components/Progressbars/Progressbar";
 import ProgressbarFour from "@/components/Progressbars/Progressbar-Four";
 import ProgressbarThree from "@/components/Progressbars/Progressbar-Three";

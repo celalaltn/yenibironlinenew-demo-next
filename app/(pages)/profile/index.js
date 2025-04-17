@@ -10,7 +10,7 @@ import CourseData from "../../../data/course-details/courseData.json";
 import UserProfile from "@/components/User-Profile/User-Profile";
 import Biography from "@/components/User-Profile/User-Biography";
 import UserCourses from "@/components/User-Profile/User-Courses";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
+
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import Separator from "@/components/Common/Separator";

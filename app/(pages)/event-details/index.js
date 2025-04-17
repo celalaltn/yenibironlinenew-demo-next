@@ -8,7 +8,7 @@ import Context from "@/context/Context";
 import sal from "sal.js";
 
 import MobileMenu from "@/components/Header/MobileMenu";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
+
 import Cart from "@/components/Header/Offcanvas/Cart";
 import EventBreadCrumb from "@/components/Events/EventBreadCrumb";
 import EventDetails from "@/components/Events/EventDetails";

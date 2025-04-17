@@ -9,7 +9,7 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import BreadCrumb from "@/components/Common/BreadCrumb";
 import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
+
 import Counter from "@/components/Counters/Counter";
 import CounterTwo from "@/components/Counters/Counter-Two";
 import CounterThree from "@/components/Counters/Counter-Three";

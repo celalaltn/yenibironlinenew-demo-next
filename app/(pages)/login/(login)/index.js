@@ -2,7 +2,7 @@
 
 import BreadCrumb from "@/components/Common/BreadCrumb";
 import FooterOne from "@/components/Footer/Footer-One";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
+
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import Login from "@/components/Login/Login";

@@ -5,7 +5,7 @@ import Store from "@/redux/store";
 import { Provider } from "react-redux";
 
 import FooterOne from "@/components/Footer/Footer-One";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
+
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import Instagram from "@/components/Instagram/Instagram";

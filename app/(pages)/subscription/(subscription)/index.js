@@ -5,7 +5,7 @@ import Store from "@/redux/store";
 import React from "react";
 import { Provider } from "react-redux";
 
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
+
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import FooterThree from "@/components/Footer/Footer-Three";

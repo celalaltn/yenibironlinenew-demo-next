@@ -8,7 +8,7 @@ import Cart from "@/components/Header/Offcanvas/Cart";
 import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
 import MobileMenu from "@/components/Header/MobileMenu";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
+
 import BreadCrumb from "@/components/Common/BreadCrumb";
 import Pricing from "@/components/Pricing/Pricing";
 import PricingTwo from "@/components/Pricing/Pricing-Two";

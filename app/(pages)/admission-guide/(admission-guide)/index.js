@@ -9,7 +9,7 @@ import Context from "@/context/Context";
 
 import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
+
 import MobileMenu from "@/components/Header/MobileMenu";
 import AdmissionArea from "@/components/Admission-Guide/AdmissionArea";
 import AdmissionContact from "@/components/Admission-Guide/AdmissionContact";

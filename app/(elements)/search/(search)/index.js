@@ -7,7 +7,7 @@ import { Provider } from "react-redux";
 import BreadCrumb from "@/components/Common/BreadCrumb";
 import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
+
 import MobileMenu from "@/components/Header/MobileMenu";
 import Search from "@/components/Search/Search";
 import SearchThree from "@/components/Search/Search-Three";

@@ -7,7 +7,7 @@ import { Provider } from "react-redux";
 import Store from "@/redux/store";
 import Context from "@/context/Context";
 import MobileMenu from "@/components/Header/MobileMenu";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
+
 import Cart from "@/components/Header/Offcanvas/Cart";
 import Banner from "@/components/Common/Banner";
 import BlogGrid from "@/components/Blogs/BlogGrid";

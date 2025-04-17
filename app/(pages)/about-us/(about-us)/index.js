@@ -10,7 +10,7 @@ import Banner from "@/components/About-Us-01/Banner";
 import Teacher from "@/components/About-Us-01/Teacher";
 import About from "@/components/Abouts/About";
 import FooterOne from "@/components/Footer/Footer-One";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
+
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import NewsletterTwo from "@/components/Newsletters/Newsletter-Two";

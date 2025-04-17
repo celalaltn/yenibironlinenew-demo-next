@@ -9,7 +9,7 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import BreadCrumb from "@/components/Common/BreadCrumb";
 import FooterOne from "@/components/Footer/Footer-One";
 import Gallery from "@/components/Gallery/Gallery";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
+
 
 const GalleryPage = () => {
   return (

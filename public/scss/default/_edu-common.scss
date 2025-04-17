@@ -183,7 +183,7 @@
 }
 
 .rbt-gradient-border {
-    background: linear-gradient(-145deg, #CFA2E8, #637FEA) !important;
+    background: linear-gradient(-145deg, #ba8a81, #d89d93) !important;
     z-index: 10;
 
     &::before {
@@ -468,7 +468,7 @@ hr {
 }
 
 .rbt-border-bottom {
-    border-bottom: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-bg);
 }
 
 .rbt-border-top {
@@ -476,7 +476,7 @@ hr {
 }
 
 .rbt-border-bottom-light {
-    border-bottom: 1px solid var(--color-border-2);
+    border-bottom: 1px solid var(--color-bg);
 }
 
 .border-bottom-4 {

@@ -5,7 +5,7 @@ import Store from "@/redux/store";
 import { Provider } from "react-redux";
 
 import BreadCrumb from "@/components/Common/BreadCrumb";
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
+
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import Social from "@/components/Socials/Social";

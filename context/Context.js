@@ -55,7 +55,7 @@ const Context = ({ children }) => {
   };
 
   return (
-    <div style={{ backgroundColor: "#ede0d4" }}>
+    <div style={{ backgroundColor: "#edede9" }}>
 
    
     <CreateContext.Provider

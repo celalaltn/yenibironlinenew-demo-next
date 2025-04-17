@@ -80,7 +80,7 @@
             position: fixed;
             top: 0;
             left: 0;
-            background-color: var(--color-white);
+            background-color: var(--color-bg);
             width: 100%;
             animation: stickySlideDown 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
             z-index: 99;
@@ -196,7 +196,7 @@
         }
 
         .mainbar-row {
-            background-color: var(--color-white);
+            background-color: var(--color-bg);
             padding: 0 25px;
             border-radius: var(--radius);
             box-shadow: var(--shadow-1);

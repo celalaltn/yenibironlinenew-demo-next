@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 import ShopData from "../../../data/shop.json";
 
-import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
+
 import Separator from "@/components/Common/Separator";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
