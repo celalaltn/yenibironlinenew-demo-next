@@ -19,7 +19,7 @@ const HeaderStyleFour = ({
       >
         <div className="rbt-sticky-placeholder"></div>
         <HeaderTopFour
-          bgColor={`bg-color-white ${
+          bgColor={` ${
             borderTop ? borderTop : ""
           } rbt-border-bottom`}
           gapSpaceBetween="header-space-betwween"
@@ -30,7 +30,7 @@ const HeaderStyleFour = ({
         />
 
         <HeaderFour
-          sticky="bg-color-white header-sticky"
+          sticky=" header-sticky"
           gapSpaceBetween={`header-space-betwween ${isShadow ? isShadow : ""}`}
           container={`${isContainerFluid ? "container-fluid" : "container"}`}
           navigationEnd="rbt-navigation-start"

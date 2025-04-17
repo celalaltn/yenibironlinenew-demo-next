@@ -12,7 +12,7 @@ const AssignmentsLayout = () => {
     <>
       <AssignmentsPage />
 
-      <BackToTop />
+     
     </>
   );
 };

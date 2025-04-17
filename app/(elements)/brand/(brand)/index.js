@@ -21,10 +21,10 @@ const BrandPage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="Brand" text="Brand" />
 
-          <div className="rbt-brand-area bg-color-white rbt-section-gap">
+          <div className="rbt-brand-area  rbt-section-gap">
             <div className="container">
               <BrandOne />
             </div>
@@ -34,7 +34,7 @@ const BrandPage = () => {
             <BrandTwo />
           </div>
 
-          <div className="rbt-brand-area bg-color-white rbt-section-gap">
+          <div className="rbt-brand-area  rbt-section-gap">
             <BrandThree />
           </div>
 

@@ -16,7 +16,7 @@ const ShopPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-           <Cart />
+          
 
           <Shop />
 

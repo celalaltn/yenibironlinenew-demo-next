@@ -10,7 +10,7 @@ const InstructorProfileLayout = () => {
   return (
     <>
       <InstructorProfile />
-      <BackToTop />
+     
     </>
   );
 };

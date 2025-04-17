@@ -10,7 +10,7 @@ const ServiceLayout = () => {
   return (
     <>
       <ServicePage />
-      <BackToTop />
+     
     </>
   );
 };

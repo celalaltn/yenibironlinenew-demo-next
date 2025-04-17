@@ -5,7 +5,7 @@ import MyCourses from "./Dashboard-Section/MyCourses";
 const Dashboard = () => {
   return (
     <>
-      <div className="rbt-dashboard-content bg-color-white rbt-shadow-box mb--60">
+      <div className="rbt-dashboard-content  rbt-shadow-box mb--60">
         <div className="content">
           <div className="section-title">
             <h4 className="rbt-title-style-3">Dashboard</h4>

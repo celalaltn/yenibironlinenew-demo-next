@@ -19,10 +19,10 @@ const SplitPage = () => {
       <Provider store={Store}>
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
-          <Cart />
+         
           <BreadCrumb title="Split" text="Split" />
 
-          <div className="rbt-split-area bg-color-white rbt-section-gapTop overflow-hidden">
+          <div className="rbt-split-area  rbt-section-gapTop overflow-hidden">
             <div className="wrapper">
               <div className="section-title text-center mb--60">
                 <span className="subtitle bg-secondary-opacity">
@@ -39,7 +39,7 @@ const SplitPage = () => {
             </div>
           </div>
 
-          <div className="rbt-video-area rbt-section-gap bg-color-white">
+          <div className="rbt-video-area rbt-section-gap ">
             <div className="container">
               <SplitTwo isImg={true} />
             </div>

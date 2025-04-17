@@ -10,7 +10,7 @@ const AssignmentsSubmitLayout = () => {
   return (
     <>
       <AssignmentsSubmitPage />
-      <BackToTop />
+     
     </>
   );
 };

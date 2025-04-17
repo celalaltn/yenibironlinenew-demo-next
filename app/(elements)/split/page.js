@@ -10,7 +10,7 @@ const SplitLayout = () => {
   return (
     <>
       <SplitPage />
-      <BackToTop />
+     
     </>
   );
 };

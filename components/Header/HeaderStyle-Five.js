@@ -22,7 +22,7 @@ const HeaderStyleFive = () => {
         />
 
         <HeaderFive
-          sticky="bg-color-white header-sticky"
+          sticky=" header-sticky"
           gapSpaceBetween=""
           container="container"
           navigationEnd="rbt-navigation-start"

@@ -11,7 +11,7 @@ const WishlistLayout = () => {
   return (
     <>
       <WishlistPage />
-      <BackToTop />
+     
     </>
   );
 };

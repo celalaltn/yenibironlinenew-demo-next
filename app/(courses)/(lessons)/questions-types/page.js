@@ -10,7 +10,7 @@ const LessonLayout = () => {
   return (
     <>
       <QuestionTypeLayout />
-      <BackToTop />
+     
     </>
   );
 };

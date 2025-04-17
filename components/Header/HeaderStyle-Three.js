@@ -20,7 +20,7 @@ const HeaderStyleThree = ({ headerSticky }) => {
         <HeaderMidOne
           container="container-fluid"
           gapSpaceBetween="header-space-betwween"
-          bgColor="bg-color-white rbt-border-bottom"
+          bgColor=" rbt-border-bottom"
         />
         <HeaderTen
           headerSticky={headerSticky}

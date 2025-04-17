@@ -79,7 +79,7 @@ const CourseSchool = ({ blogs }) => {
         </div>
       </div>
 
-      <div className="rbt-course-area bg-color-white rbt-section-gapTop masonary-wrapper-activation">
+      <div className="rbt-course-area  rbt-section-gapTop masonary-wrapper-activation">
         <div className="container">
           <div className="row mb--60">
             <div className="col-lg-12">
@@ -285,7 +285,7 @@ const CourseSchool = ({ blogs }) => {
         </div>
       </div>
 
-      <div className="rbt-testimonial-area bg-color-white rbt-section-gap">
+      <div className="rbt-testimonial-area  rbt-section-gap">
         <TestimonialThree
           isStar={true}
           bgClass="bg-gradient-7 text-white"
@@ -315,7 +315,7 @@ const CourseSchool = ({ blogs }) => {
         </div>
       </div>
 
-      <div className="rbt-rbt-blog-area rbt-section-gap bg-color-white">
+      <div className="rbt-rbt-blog-area rbt-section-gap ">
         <div className="container">
           <div className="row g-5 align-items-center mb--30">
             <div className="col-lg-6 col-md-6 col-12">

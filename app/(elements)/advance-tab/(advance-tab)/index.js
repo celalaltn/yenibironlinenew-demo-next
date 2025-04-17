@@ -23,10 +23,10 @@ const AdvanceTabPage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="Advance Tab" text="Advance Tab" />
 
-          <div className="rbt-advance-tab-area rbt-section-gap bg-color-white">
+          <div className="rbt-advance-tab-area rbt-section-gap ">
             <AdvanceTab
               tag="YOU CAN CUSTOMIZE ALL"
               title="Advance Tab Style One."
@@ -37,7 +37,7 @@ const AdvanceTabPage = () => {
             <AdvancetabTwo />
           </div>
 
-          <div className="rbt-advance-tab-area rbt-section-gap bg-color-white">
+          <div className="rbt-advance-tab-area rbt-section-gap ">
             <AdvanceTabThree />
           </div>
 
@@ -45,7 +45,7 @@ const AdvanceTabPage = () => {
             <AdvanceTabFour />
           </div>
 
-          <div className="rbt-tab-area bg-color-white rbt-section-gap">
+          <div className="rbt-tab-area  rbt-section-gap">
             <AdvanceTabFive />
           </div>
 

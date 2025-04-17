@@ -11,7 +11,7 @@ const TestimonialLayout = () => {
     <>
       <TestimonialPage />
 
-      <BackToTop />
+     
     </>
   );
 };

@@ -17,7 +17,7 @@ const PrivacyPolicyPage = () => {
       <Provider store={Store}>
         <Context>
        
-          <Cart />
+         
 
           <PrivacyPolicy />
           <Instagram />

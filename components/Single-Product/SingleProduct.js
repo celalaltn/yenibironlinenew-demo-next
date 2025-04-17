@@ -21,7 +21,7 @@ const SingleProduct = ({ checkMatchProduct }) => {
         </div>
       </div>
 
-      <div className="rbt-product-description rbt-section-gapBottom bg-color-white">
+      <div className="rbt-product-description rbt-section-gapBottom ">
         <div className="container">
           <div className="row">
             <div className="col-lg-8 offset-lg-2">
@@ -140,7 +140,7 @@ const SingleProduct = ({ checkMatchProduct }) => {
         </div>
       </div>
 
-      <div className="rbt-related-product rbt-section-gapBottom bg-color-white">
+      <div className="rbt-related-product rbt-section-gapBottom ">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

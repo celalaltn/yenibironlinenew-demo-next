@@ -16,31 +16,28 @@ import Cart from "@/components/Header/Offcanvas/Cart";
 import NewsletterTwo from "@/components/Newsletters/Newsletter-Two";
 import SplitTwo from "@/components/Split/Split-Two";
 import TestimonialSix from "@/components/Testimonials/Testimonial-Six";
+import BreadCrumb from "@/components/Common/BreadCrumb";
 
 const AboutUsPage = () => {
   return (
     <>
       <Provider store={Store}>
         <Context>
-          <Cart />
+         
 
-          <div
-            className="slider-area rbt-banner-10 height-750 bg_image bg_image--11"
-            data-black-overlay="5"
-          >
-            <Banner />
-          </div>
-          <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gapTop">
+        <BreadCrumb title="About Us" text="About Us" />
+
+          <div className="rbt-about-area about-style-1  rbt-section-gapTop">
             <ParallaxProvider>
               <About />
             </ParallaxProvider>
           </div>
-          <div className="rbt-video-area rbt-section-gapBottom pt--50 bg-color-white">
+          <div className="rbt-video-area rbt-section-gapBottom pt--50 ">
             <div className="container">
               <SplitTwo isImg={false} />
             </div>
           </div>
-          <div className="rbt-testimonial-area bg-color-white rbt-section-gapBottom overflow-hidden">
+          <div className="rbt-testimonial-area  rbt-section-gapBottom overflow-hidden">
             <div className="container-fluid">
               <div className="row g-5 align-items-center">
                 <div className="col-xl-3">

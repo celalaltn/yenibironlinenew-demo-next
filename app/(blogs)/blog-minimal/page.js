@@ -12,7 +12,7 @@ const BlogGridMinimalLayout = async () => {
   return (
     <>
       <BlogGridMinimalPage getAllBlogs={blog} />
-      <BackToTop />
+     
     </>
   );
 };

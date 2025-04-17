@@ -45,7 +45,7 @@ const SingleCoursePage = ({ getParams }) => {
       <Provider store={Store}>
         <Context>
       
-          <Cart />
+         
 
           <CategoryHead category={filteredCourses[0]} />
 

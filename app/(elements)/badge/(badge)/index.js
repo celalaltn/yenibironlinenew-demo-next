@@ -20,10 +20,10 @@ const BadgePage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="Welcome to Histudy Badge" text="Badge" />
 
-          <div className="rbt-badge-area rbt-section-gap bg-color-white position-relative">
+          <div className="rbt-badge-area rbt-section-gap  position-relative">
             <Badge />
           </div>
 

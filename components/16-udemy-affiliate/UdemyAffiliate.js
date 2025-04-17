@@ -31,7 +31,7 @@ const UdemyAffiliate = () => {
         </div>
       </div>
 
-      <div className="rbt-course-area bg-color-white rbt-section-gap">
+      <div className="rbt-course-area  rbt-section-gap">
         <div className="container">
           <div className="row g-5">
             <Card
@@ -61,7 +61,7 @@ const UdemyAffiliate = () => {
         <div className="container"><AboutEight /></div>
       </div>
 
-      <div className="rbt-categories-area bg-color-white rbt-section-gap">
+      <div className="rbt-categories-area  rbt-section-gap">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -78,7 +78,7 @@ const UdemyAffiliate = () => {
 
       <Separator />
 
-      <div className="rbt-brand-area bg-color-white rbt-section-gap">
+      <div className="rbt-brand-area  rbt-section-gap">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-12">
@@ -97,7 +97,7 @@ const UdemyAffiliate = () => {
         </div>
       </div>
 
-      <div className="rbt-testimonial-area bg-color-white rbt-section-gapBottom">
+      <div className="rbt-testimonial-area  rbt-section-gapBottom">
         <div className="container">
           <div className="testimonial-item-3-activation swiper rbt-arrow-between gutter-swiper-30">
             <TestimonialFive isDesc={true} />

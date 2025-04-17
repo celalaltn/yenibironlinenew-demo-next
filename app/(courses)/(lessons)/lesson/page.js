@@ -11,7 +11,7 @@ const LessonLayout = () => {
   return (
     <>
       <LessonPage />
-      <BackToTop />
+     
     </>
   );
 };

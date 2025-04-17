@@ -42,7 +42,7 @@ const Wishlist = () => {
     <>
       <BreadCrumb title="Wishlist" text="Wishlist" />
 
-      <div className="wishlist_area bg-color-white rbt-section-gap">
+      <div className="wishlist_area  rbt-section-gap">
         <div className="container">
           <div className="row">
             <div className="col-12">

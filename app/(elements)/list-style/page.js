@@ -10,7 +10,7 @@ const ListStyleLayout = () => {
   return (
     <>
       <ListStylePage />
-      <BackToTop />
+     
     </>
   );
 };

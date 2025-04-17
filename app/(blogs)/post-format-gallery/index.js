@@ -34,7 +34,7 @@ export default function SinglePostGallery({ getAllblog }) {
       <Provider store={Store}>
         <Context>
          
-          <Cart />
+         
           <div className="rbt-overlay-page-wrapper">
             <BlogBreadCrumb matchedBlog={matchedBlog} />
             <div className="rbt-blog-details-area rbt-section-gapBottom breadcrumb-style-max-width">

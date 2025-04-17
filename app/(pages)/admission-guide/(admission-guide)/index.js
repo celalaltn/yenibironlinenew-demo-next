@@ -21,16 +21,16 @@ const AdmissionGuidePage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="Admission Guide" text="Admission Guide" />
 
-          <div className="rbt-admission-area bg-color-white rbt-section-gapTop">
+          <div className="rbt-admission-area  rbt-section-gapTop">
             <div className="container">
               <AdmissionArea />
             </div>
           </div>
 
-          <div className="rbt-conatct-area bg-color-white pt--60 rbt-section-gapBottom">
+          <div className="rbt-conatct-area  pt--60 rbt-section-gapBottom">
             <div className="container">
               <AdmissionContact />
             </div>

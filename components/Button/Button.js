@@ -34,7 +34,7 @@ const Button = () => {
           />
         }
         btnText="Histudy Button"
-        classOne="rbt-button-area rbt-section-gap bg-color-white"
+        classOne="rbt-button-area rbt-section-gap "
         btnClassOne=""
         btnClassTwo="btn-secondary"
         btnClassThree="btn-coral"
@@ -52,7 +52,7 @@ const Button = () => {
           />
         }
         btnText="Histudy Button"
-        classOne="rbt-button-area rbt-section-gapBottom bg-color-white"
+        classOne="rbt-button-area rbt-section-gapBottom "
         btnClassOne="btn-border square"
         btnClassTwo="btn-border"
         btnClassThree="btn-border radius-round-6"
@@ -83,7 +83,7 @@ const Button = () => {
         </div>
       </div>
 
-      <div className="rbt-button-area rbt-section-gap bg-color-white">
+      <div className="rbt-button-area rbt-section-gap ">
         <div className="container">
           <SectionHead
             textBg="bg-primary-opacity"
@@ -131,7 +131,7 @@ const Button = () => {
         </div>
       </div>
 
-      <div className="rbt-button-area rbt-section-gapBottom bg-color-white">
+      <div className="rbt-button-area rbt-section-gapBottom ">
         <div className="container">
           <SectionHead
             textBg="bg-primary-opacity"
@@ -151,7 +151,7 @@ const Button = () => {
         </div>
       </div>
 
-      <div className="rbt-button-area rbt-section-gapBottom bg-color-white">
+      <div className="rbt-button-area rbt-section-gapBottom ">
         <div className="container">
           <SectionHead
             textBg="bg-primary-opacity"
@@ -185,7 +185,7 @@ const Button = () => {
         </div>
       </div>
 
-      <div className="rbt-button-area rbt-section-gapBottom bg-color-white">
+      <div className="rbt-button-area rbt-section-gapBottom ">
         <div className="container">
           <SectionHead
             textBg="bg-primary-opacity"
@@ -231,7 +231,7 @@ const Button = () => {
         </div>
       </div>
 
-      <div className="rbt-button-area rbt-section-gapBottom bg-color-white">
+      <div className="rbt-button-area rbt-section-gapBottom ">
         <div className="container">
           <SectionHead
             textBg="bg-primary-opacity"
@@ -311,7 +311,7 @@ const Button = () => {
         </div>
       </div>
 
-      <div className="rbt-button-area rbt-section-gapBottom bg-color-white">
+      <div className="rbt-button-area rbt-section-gapBottom ">
         <div className="container">
           <SectionHead
             textBg="bg-primary-opacity"
@@ -345,7 +345,7 @@ const Button = () => {
         </div>
       </div>
 
-      <div className="rbt-button-area rbt-section-gapBottom bg-color-white">
+      <div className="rbt-button-area rbt-section-gapBottom ">
         <div className="container">
           <SectionHead
             textBg="bg-pink-opacity"
@@ -403,7 +403,7 @@ const Button = () => {
         </div>
       </div>
 
-      <div className="rbt-button-area rbt-section-gapBottom bg-color-white">
+      <div className="rbt-button-area rbt-section-gapBottom ">
         <div className="container">
           <SectionHead
             textBg="bg-pink-opacity"
@@ -439,7 +439,7 @@ const Button = () => {
         </div>
       </div>
 
-      <div className="rbt-button-area rbt-section-gapBottom bg-color-white">
+      <div className="rbt-button-area rbt-section-gapBottom ">
         <div className="container">
           <SectionHead
             textBg="bg-primary-opacity"
@@ -473,7 +473,7 @@ const Button = () => {
         </div>
       </div>
 
-      <div className="rbt-button-area rbt-section-gapBottom bg-color-white">
+      <div className="rbt-button-area rbt-section-gapBottom ">
         <div className="container">
           <SectionHead
             textBg="bg-primary-opacity"

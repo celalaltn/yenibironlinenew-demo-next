@@ -2,7 +2,7 @@ const ColorPalette = () => {
   return (
     <div
       id="colorPalette"
-      className="rbt-elements-area bg-color-white rbt-shadow-box mb--60"
+      className="rbt-elements-area  rbt-shadow-box mb--60"
     >
       <div className="wrapper">
         <div className="section-title">
@@ -82,7 +82,7 @@ const ColorPalette = () => {
 
           <div className="col-lg-3">
             <div className="color-box-inner">
-              <div className="color-box bg-color-white radius-10"></div>
+              <div className="color-box  radius-10"></div>
               <div className="content mt--10">
                 <span className="rbt-title-style-2">#ffffff</span>
                 <h6 className="title mb--0">white Color</h6>
@@ -92,7 +92,7 @@ const ColorPalette = () => {
 
           <div className="col-lg-3">
             <div className="color-box-inner">
-              <div className="color-box bg-color-white-off radius-10"></div>
+              <div className="color-box -off radius-10"></div>
               <div className="content mt--10">
                 <span className="rbt-title-style-2">#FFFFFFAB</span>
                 <h6 className="title mb--0">white off Color</h6>
@@ -262,7 +262,7 @@ const ColorPalette = () => {
 
           <div className="col-lg-3">
             <div className="color-box-inner">
-              <div className="color-box bg-color-white-opacity radius-10"></div>
+              <div className="color-box -opacity radius-10"></div>
               <div className="content mt--10">
                 <span className="rbt-title-style-2">#ffffff21</span>
                 <h6 className="title mb--0">white opacity Color</h6>

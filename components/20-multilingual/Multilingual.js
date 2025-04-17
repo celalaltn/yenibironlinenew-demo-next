@@ -377,7 +377,7 @@ const Multilingual = ({ blogdata }) => {
           </div>
         </div>
 
-        <div className="rbt-testimonial-area bg-color-white rbt-section-gap">
+        <div className="rbt-testimonial-area  rbt-section-gap">
           <TestimonialFour />
           <div className="container">
             <div className="mt--80">

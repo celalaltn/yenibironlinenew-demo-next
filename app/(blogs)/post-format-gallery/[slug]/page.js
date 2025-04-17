@@ -31,7 +31,7 @@ const SingleBlogGalleryLayout = async ({ params }) => {
     return (
       <>
         <SinglePostGallery getParams={content} getAllblog={blog} />
-        <BackToTop />
+       
       </>
     );
   } catch (error) {

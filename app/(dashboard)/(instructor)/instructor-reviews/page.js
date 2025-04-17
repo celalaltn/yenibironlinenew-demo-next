@@ -12,7 +12,7 @@ const ReviewLayout = () => {
     <>
       <ReviewPage />
 
-      <BackToTop />
+     
     </>
   );
 };

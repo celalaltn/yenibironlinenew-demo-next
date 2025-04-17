@@ -29,13 +29,13 @@ const InstructorPage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="Instructor" text="Instructor" />
 
-          <div className="rbt-team-area bg-color-white rbt-section-gap">
+          <div className="rbt-team-area  rbt-section-gap">
             <TeamOne />
           </div>
-          <div className="rbt-team-area bg-color-white rbt-section-gapBottom">
+          <div className="rbt-team-area  rbt-section-gapBottom">
             <div className="container">
               <TeamHead
                 title="Team (Carousel Style)."
@@ -44,25 +44,25 @@ const InstructorPage = () => {
               <TeamTwo />
             </div>
           </div>
-          <div className="rbt-team-area bg-color-white rbt-section-gapBottom">
+          <div className="rbt-team-area  rbt-section-gapBottom">
             <TeamThree />
           </div>
           <div className="rbt-team-area bg-color-extra2 rbt-section-gap">
             <TeamFour isHead={true} />
           </div>
-          <div className="rbt-team-area bg-color-white rbt-section-gap">
+          <div className="rbt-team-area  rbt-section-gap">
             <TeamFive />
           </div>
           <div className="rbt-team-area bg-color-extra2 rbt-section-gap">
             <TeamSix />
           </div>
-          <div className="rbt-team-area bg-color-white rbt-section-gap">
+          <div className="rbt-team-area  rbt-section-gap">
             <TeamSeven />
           </div>
           <div className="rbt-team-area bg-color-extra2 rbt-section-gap">
             <TeamEight />
           </div>
-          <div className="rbt-team-area bg-color-white rbt-section-gap">
+          <div className="rbt-team-area  rbt-section-gap">
             <TeamNine />
           </div>
           <div className="rbt-team-area bg-gradient-8 rbt-section-gap">

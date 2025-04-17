@@ -42,7 +42,7 @@ const HomeTechnology = () => {
         </div>
       </div>
 
-      <div className="rbt-about-area bg-color-white rbt-section-gap" id="about">
+      <div className="rbt-about-area  rbt-section-gap" id="about">
         <div className="container">
           <AboutSaven />
         </div>
@@ -65,7 +65,7 @@ const HomeTechnology = () => {
       </div>
 
       <div
-        className="rbt-course-banner-area rbt-section-gap bg-color-white"
+        className="rbt-course-banner-area rbt-section-gap "
         id="guideline"
       >
         <div className="container">
@@ -154,7 +154,7 @@ const HomeTechnology = () => {
       </div>
 
       <div
-        className="rbt-video-area bg-color-white rbt-section-gap"
+        className="rbt-video-area  rbt-section-gap"
         id="career"
       >
         <div className="container">
@@ -218,15 +218,15 @@ const HomeTechnology = () => {
         </div>
       </div>
 
-      <div className="thumb-wrapper bg-color-white rbt-section-gapBottom">
+      <div className="thumb-wrapper  rbt-section-gapBottom">
         <TestimonialFour />
       </div>
 
-      <div className="thumb-wrapper bg-color-white rbt-section-gapBottom">
+      <div className="thumb-wrapper  rbt-section-gapBottom">
         <TeacherGallery />
       </div>
 
-      <div className="rbt-newsletter-area bg-color-white rbt-section-gapBottom">
+      <div className="rbt-newsletter-area  rbt-section-gapBottom">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

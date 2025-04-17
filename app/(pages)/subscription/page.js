@@ -11,7 +11,7 @@ const SubscriptionLayout = () => {
     <>
       <SubscriptionPage />
 
-      <BackToTop />
+     
     </>
   );
 };

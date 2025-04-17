@@ -34,10 +34,10 @@ const TestimonialPage = () => {
       <Provider store={Store}>
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
-          <Cart />
+         
           <BreadCrumb title="Testimonial" text="Testimonial" />
 
-          <div className="rbt-testimonial-area bg-color-white rbt-section-gap overflow-hidden">
+          <div className="rbt-testimonial-area  rbt-section-gap overflow-hidden">
             <Testimonial />
           </div>
           <div className="rbt-testimonial-area bg-color-extra2 rbt-section-gap overflow-hidden">
@@ -60,7 +60,7 @@ const TestimonialPage = () => {
             </div>
             <TestimonialTwo />
           </div>
-          <div className="rbt-testimonial-area bg-color-white rbt-section-gap">
+          <div className="rbt-testimonial-area  rbt-section-gap">
             <TestimonialThree
               isStar={false}
               bgClass="bg-gray-light"
@@ -74,7 +74,7 @@ const TestimonialPage = () => {
           <div className="rbt-testimonial-area bg-color-extra2 rbt-section-gapBottom">
             <TestimonialFive isDesc={true} />
           </div>
-          <div className="rbt-testimonial-area bg-color-white rbt-section-gapBottom overflow-hidden">
+          <div className="rbt-testimonial-area  rbt-section-gapBottom overflow-hidden">
             <div className="container-fluid">
               <div className="row g-5 align-items-center">
                 <div className="col-xl-3">
@@ -98,7 +98,7 @@ const TestimonialPage = () => {
               </div>
             </div>
           </div>
-          <div className="rbt-testimonial-area bg-color-white rbt-section-gapBottom overflow-hidden">
+          <div className="rbt-testimonial-area  rbt-section-gapBottom overflow-hidden">
             <div className="wrapper">
               <div className="container">
                 <div className="row">

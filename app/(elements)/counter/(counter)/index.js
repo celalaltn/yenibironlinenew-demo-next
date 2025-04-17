@@ -24,10 +24,10 @@ const CounterPage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="Counter" text="Counter" />
 
-          <div className="rbt-counterup-area bg-color-white rbt-section-gap">
+          <div className="rbt-counterup-area  rbt-section-gap">
             <Counter isDesc={true} />
           </div>
 
@@ -35,7 +35,7 @@ const CounterPage = () => {
             <CounterTwo />
           </div>
 
-          <div className="rbt-counterup-area bg-color-white rbt-section-gap">
+          <div className="rbt-counterup-area  rbt-section-gap">
             <CounterThree />
           </div>
 
@@ -54,7 +54,7 @@ const CounterPage = () => {
             </div>
           </div>
 
-          <div className="rbt-counterup-area bg-color-white rbt-section-gap">
+          <div className="rbt-counterup-area  rbt-section-gap">
             <CounterSix />
           </div>
 

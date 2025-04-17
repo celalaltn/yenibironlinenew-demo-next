@@ -36,10 +36,10 @@ const AboutPage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="About" text="About" />
 
-          <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gap">
+          <div className="rbt-about-area about-style-1  rbt-section-gap">
             <ParallaxProvider>
               <About />
             </ParallaxProvider>
@@ -53,7 +53,7 @@ const AboutPage = () => {
             </div>
           </div>
 
-          <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gap">
+          <div className="rbt-about-area about-style-1  rbt-section-gap">
             <div className="container">
               <AboutThree />
             </div>
@@ -71,7 +71,7 @@ const AboutPage = () => {
             </div>
           </div>
 
-          <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gap">
+          <div className="rbt-about-area about-style-1  rbt-section-gap">
             <div className="container">
               <AboutSix
                 btnClass="radius rbt-marquee-btn marquee-text-y"
@@ -86,7 +86,7 @@ const AboutPage = () => {
             </div>
           </div>
 
-          <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gap">
+          <div className="rbt-about-area about-style-1  rbt-section-gap">
             <div className="container">
               <AboutEight />
             </div>

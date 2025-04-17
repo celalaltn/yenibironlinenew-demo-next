@@ -20,14 +20,14 @@ const TeacherPage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="Become a Teacher" text="Become a Teacher" />
 
-          <div className="rbt-become-area bg-color-white rbt-section-gap">
+          <div className="rbt-become-area  rbt-section-gap">
             <BecomeATeacher />
           </div>
 
-          <div className="thumb-wrapper bg-color-white rbt-section-gapBottom">
+          <div className="thumb-wrapper  rbt-section-gapBottom">
             <TeacherGallery />
           </div>
 

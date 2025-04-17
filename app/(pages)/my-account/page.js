@@ -11,7 +11,7 @@ const MyAccountLayout = () => {
     <>
       <MyAccountPage />
 
-      <BackToTop />
+     
     </>
   );
 };

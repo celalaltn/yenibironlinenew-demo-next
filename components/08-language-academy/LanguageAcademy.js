@@ -164,7 +164,7 @@ const LanguageAcademy = ({ blogs }) => {
         </div>
       </div>
 
-      <div className="rbt-course-card-area rbt-section-gap bg-color-white">
+      <div className="rbt-course-card-area rbt-section-gap ">
         <div className="container">
           <div className="row align-items-center mb--60">
             <div className="col-lg-12">
@@ -274,7 +274,7 @@ const LanguageAcademy = ({ blogs }) => {
         </div>
       </div>
 
-      <div className="rbt-about-area about-style-1 rbt-section-gapTop pb--30 pb_md--80 pb_sm--80 bg-color-white">
+      <div className="rbt-about-area about-style-1 rbt-section-gapTop pb--30 pb_md--80 pb_sm--80 ">
         <div className="container">
           <ParallaxProvider>
             <AboutTwo />

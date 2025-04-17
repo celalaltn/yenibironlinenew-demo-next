@@ -23,7 +23,7 @@ const CallToAction = () => {
           <div className="row g-5" key={index}>
             {data.left.map((item, innerIndex) => (
               <div className="col-lg-6" key={innerIndex}>
-                <div className="rbt-callto-action callto-action-default bg-color-white rbt-radius shadow-1">
+                <div className="rbt-callto-action callto-action-default  rbt-radius shadow-1">
                   <div className="row align-items-center">
                     <div className="col-lg-12 col-xl-5">
                       <div className="inner">
@@ -59,7 +59,7 @@ const CallToAction = () => {
             ))}
             {data.right.map((item, innerIndex) => (
               <div className="col-lg-6" key={innerIndex}>
-                <div className="rbt-callto-action callto-action-default bg-color-white rbt-radius shadow-1">
+                <div className="rbt-callto-action callto-action-default  rbt-radius shadow-1">
                   <div className="row align-items-center">
                     <div className="col-lg-12">
                       <div className="inner">

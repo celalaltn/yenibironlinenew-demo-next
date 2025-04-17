@@ -11,7 +11,7 @@ const AcademyGalleryLayout = () => {
     <>
       <AcademyGallery />
 
-      <BackToTop />
+     
     </>
   );
 };

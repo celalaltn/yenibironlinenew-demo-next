@@ -24,14 +24,7 @@ const Card = ({ start, end, col, mt, isDesc, isUser }) => {
                     height={244}
                     alt="Card image"
                   />
-                  {data.offPrice > 0 ? (
-                    <div className="rbt-badge-3 bg-white">
-                      <span>-{data.offPrice}%</span>
-                      <span>Off</span>
-                    </div>
-                  ) : (
-                    ""
-                  )}
+                  
                 </Link>
               </div>
               <div className="rbt-card-body">

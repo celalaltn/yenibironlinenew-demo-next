@@ -2,7 +2,7 @@ import React from 'react'
 
 const MyCourses = () => {
   return (
-    <div className="rbt-dashboard-content bg-color-white rbt-shadow-box mb--60">
+    <div className="rbt-dashboard-content  rbt-shadow-box mb--60">
       <div className="content">
         <div className="row">
           <div className="col-lg-12">

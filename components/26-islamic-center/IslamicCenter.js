@@ -290,7 +290,7 @@ const IslamicCenter = ({ blogdata }) => {
           </div>
         </div>
 
-        <div className="rbt-accordion-area bg-color-white rbt-section-gap">
+        <div className="rbt-accordion-area  rbt-section-gap">
           <div className="container">
             <div className="row row--30 mt_dec--30">
               <div className="col-lg-6 mt--30">
@@ -445,7 +445,7 @@ const IslamicCenter = ({ blogdata }) => {
           </div>
         </div>
 
-        <div className="rbt-testimonial-area bg-color-white rbt-section-gap">
+        <div className="rbt-testimonial-area  rbt-section-gap">
           <TestimonialFour leftContent={true} />
           <div className="container">
             <div className="mt--80">

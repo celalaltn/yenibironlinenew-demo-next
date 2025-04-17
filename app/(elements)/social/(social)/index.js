@@ -19,11 +19,11 @@ const SocialPage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="Social Share" text="Social Share" />
 
           <Social
-            classOne="rbt-social-area bg-color-white rbt-section-gap"
+            classOne="rbt-social-area  rbt-section-gap"
             classList="social-icon social-default"
           />
 
@@ -33,7 +33,7 @@ const SocialPage = () => {
           />
 
           <Social
-            classOne="rbt-social-area bg-color-white rbt-section-gap"
+            classOne="rbt-social-area  rbt-section-gap"
             classList="social-icon social-default with-gradient"
           />
 
@@ -43,7 +43,7 @@ const SocialPage = () => {
           />
 
           <Social
-            classOne="rbt-social-area bg-color-white rbt-section-gap"
+            classOne="rbt-social-area  rbt-section-gap"
             classList="social-icon social-default icon-naked"
           />
 

@@ -11,7 +11,7 @@ const QuizAttemptsLayout = () => {
   return (
     <>
       <StudentQuiz />
-      <BackToTop />
+     
     </>
   );
 };

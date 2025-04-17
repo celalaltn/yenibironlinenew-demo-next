@@ -12,7 +12,7 @@ const ReviewLayout = () => {
     <>
       <StudentReviews />
 
-      <BackToTop />
+     
     </>
   );
 };

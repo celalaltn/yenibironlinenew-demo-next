@@ -51,7 +51,7 @@ const UniversityClassic = ({ blogdata }) => {
       </div>
 
       <div
-        className="rbt-video-area bg-color-white rbt-section-gapTop"
+        className="rbt-video-area  rbt-section-gapTop"
         id="about"
       >
         <div className="container">
@@ -123,7 +123,7 @@ const UniversityClassic = ({ blogdata }) => {
         </div>
       </div>
 
-      <div className="rbt-category-area bg-color-white rbt-section-gapTop">
+      <div className="rbt-category-area  rbt-section-gapTop">
         <ServiceEight isHead={false} />
       </div>
 
@@ -204,7 +204,7 @@ const UniversityClassic = ({ blogdata }) => {
         </div>
       </div>
 
-      <div className="rbt-advance-tab-area rbt-section-gapTop bg-color-white">
+      <div className="rbt-advance-tab-area rbt-section-gapTop ">
         <AdvanceTab
           tag=""
           title="About Us."
@@ -213,7 +213,7 @@ const UniversityClassic = ({ blogdata }) => {
       </div>
 
       <div
-        className="rbt-program-area rbt-section-gapTop bg-color-white"
+        className="rbt-program-area rbt-section-gapTop "
         id="program"
       >
         <div className="container">
@@ -286,7 +286,7 @@ const UniversityClassic = ({ blogdata }) => {
         </div>
       </div>
       <div
-        className="rbt-course-area rbt-section-gapTop bg-color-white"
+        className="rbt-course-area rbt-section-gapTop "
         id="course"
       >
         <div className="container">
@@ -312,7 +312,7 @@ const UniversityClassic = ({ blogdata }) => {
       </div>
 
       <div
-        className="rbt-rbt-blog-area rbt-section-gapTop bg-color-white"
+        className="rbt-rbt-blog-area rbt-section-gapTop "
         id="blog"
       >
         <div className="container">
@@ -340,7 +340,7 @@ const UniversityClassic = ({ blogdata }) => {
         </div>
       </div>
 
-      <div className="rbt-event-area bg-color-white rbt-section-gapTop">
+      <div className="rbt-event-area  rbt-section-gapTop">
         <div className="container">
           <div className="row g-5 align-items-end mb--60">
             <div className="col-lg-6 col-md-12 col-12">
@@ -368,7 +368,7 @@ const UniversityClassic = ({ blogdata }) => {
         </div>
       </div>
       <div
-        className="rbt-testimonial-area bg-color-white rbt-section-gap overflow-hidden"
+        className="rbt-testimonial-area  rbt-section-gap overflow-hidden"
         id="testimonial"
       >
         <div className="container">
@@ -399,7 +399,7 @@ const UniversityClassic = ({ blogdata }) => {
       <div className="rbt-gallery-area">
         <Gallery />
       </div>
-      <div className="rbt-brand-area bg-color-white rbt-section-gap">
+      <div className="rbt-brand-area  rbt-section-gap">
         <div className="container">
           <div className="row align-items-center g-5">
             <BrandOne />

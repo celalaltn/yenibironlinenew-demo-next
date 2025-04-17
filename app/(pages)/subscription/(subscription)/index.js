@@ -19,10 +19,10 @@ const SubscriptionPage = () => {
       <Provider store={Store}>
         <Context>
          
-          <Cart />
+         
           <BreadCrumb title="Subscription" text="Subscription" />
 
-          <div className="rbt-pricing-area bg-color-white rbt-section-gap">
+          <div className="rbt-pricing-area  rbt-section-gap">
             <PricingThree title="" tag="" col="col-12" position="text-center" />
           </div>
 

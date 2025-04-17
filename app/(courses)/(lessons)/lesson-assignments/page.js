@@ -10,7 +10,7 @@ const LessonAssignmentLayout = () => {
   return (
     <>
       <LessonAssignmentPage />
-      <BackToTop />
+     
     </>
   );
 };

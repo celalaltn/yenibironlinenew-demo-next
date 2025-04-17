@@ -19,7 +19,7 @@ const StyleGuidePage = () => {
         <Context>
           <HeaderStyleTen headerSticky="" headerType={true} />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="Style Guide" text="Style Guide" />
 
           <div className="rbt-style-guide-area rbt-section-gap">

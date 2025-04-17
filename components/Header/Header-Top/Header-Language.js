@@ -4,6 +4,7 @@ import Link from "next/link";
 import us from "../../../public/images/icons/en-us.png";
 import fr from "../../../public/images/icons/fr.png";
 import de from "../../../public/images/icons/de.png";
+import tr from "../../../public/images/icons/tr.png";
 
 const HeaderLanguage = () => {
   return (
@@ -11,7 +12,21 @@ const HeaderLanguage = () => {
       <div className="header-info">
         <ul className="rbt-dropdown-menu switcher-language">
           <li className="has-child-menu">
-            <Link href="#">
+          <Link href="#">
+                  <Image
+                    className="left-image"
+                    src={tr}
+                    width={25}
+                    height={16}
+                    alt="Language Images"
+                  />
+                  <span className="menu-item">Türkçe</span>
+              <i className="right-icon feather-chevron-down"></i>
+
+                </Link>  
+            <ul className="sub-menu">
+              <li>
+              <Link href="#">
               <Image
                 className="left-image"
                 src={us}
@@ -20,20 +35,7 @@ const HeaderLanguage = () => {
                 alt="Language Images"
               />
               <span className="menu-item">English</span>
-              <i className="right-icon feather-chevron-down"></i>
             </Link>
-            <ul className="sub-menu">
-              <li>
-                <Link href="#">
-                  <Image
-                    className="left-image"
-                    src={fr}
-                    width={25}
-                    height={16}
-                    alt="Language Images"
-                  />
-                  <span className="menu-item">Français</span>
-                </Link>
               </li>
               <li>
                 <Link href="#">

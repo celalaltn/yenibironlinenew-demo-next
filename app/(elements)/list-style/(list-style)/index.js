@@ -19,10 +19,10 @@ const ListStylePage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="List Style" text="List Style" />
 
-          <div className="rbt-list-style-area bg-color-white rbt-section-gap">
+          <div className="rbt-list-style-area  rbt-section-gap">
             <ListStyle />
           </div>
 

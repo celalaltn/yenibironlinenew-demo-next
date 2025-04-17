@@ -21,10 +21,10 @@ const MyAccountPage = () => {
       <Provider store={Store}>
         <Context>
          
-          <Cart />
+         
           <BreadCrumb title="My Account" text="My Account" />
 
-          <div className="my-account-section bg-color-white rbt-section-gap">
+          <div className="my-account-section  rbt-section-gap">
             <div className="container">
               <div className="row">
                 <div className="col-12">

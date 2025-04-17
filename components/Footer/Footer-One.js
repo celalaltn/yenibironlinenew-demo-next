@@ -21,7 +21,7 @@ const FooterOne = ({ isBox, bgColor, newsletterBorder, islamic }) => {
       <footer
         className={`rbt-footer ${
           newsletterBorder === undefined ? "" : "rbt-footer-shadow-1"
-        } footer-style-1 ${bgColor ? bgColor : "bg-color-white"} ${
+        } footer-style-1 ${bgColor ? bgColor : ""} ${
           isBox ? isBox : ""
         } ${islamic === undefined ? "" : "footer-islamic"} overflow-hidden`}
       >

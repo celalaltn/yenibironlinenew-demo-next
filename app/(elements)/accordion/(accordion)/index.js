@@ -23,10 +23,10 @@ const AccordionPage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="Accordion" text="Accordion" />
 
-          <div className="rbt-accordion-area accordion-style-1 bg-color-white rbt-section-gap">
+          <div className="rbt-accordion-area accordion-style-1  rbt-section-gap">
             <Accordion />
           </div>
 
@@ -34,7 +34,7 @@ const AccordionPage = () => {
             <AccordionTwo />
           </div>
 
-          <div className="rbt-accordion-area accordion-style-1 bg-color-white rbt-section-gap">
+          <div className="rbt-accordion-area accordion-style-1  rbt-section-gap">
             <AccordionThree />
           </div>
 
@@ -44,7 +44,7 @@ const AccordionPage = () => {
             </div>
           </div>
 
-          <div className="rbt-accordion-area accordion-style-1 bg-color-white rbt-section-gap">
+          <div className="rbt-accordion-area accordion-style-1  rbt-section-gap">
             <Course title="Tuition & Fees" tag="COURSE PRICING" />
           </div>
 

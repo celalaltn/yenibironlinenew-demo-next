@@ -19,9 +19,9 @@ const SearchPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" /> <Cart />
+          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <BreadCrumb title="Search" text="Search" />
-          <div className="rbt-elements-area bg-color-white rbt-section-gap">
+          <div className="rbt-elements-area  rbt-section-gap">
             <Search />
           </div>
           <div className="rbt-elements-area bg-color-extra2 rbt-section-gap">

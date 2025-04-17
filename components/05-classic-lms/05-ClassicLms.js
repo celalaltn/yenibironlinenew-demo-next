@@ -20,7 +20,7 @@ const ClassicLms = ({ blogdata }) => {
   }, []);
   return (
     <>
-      <div className="rbt-banner-area rbt-banner-1 variation-2 height-750">
+      <div className="rbt-banner-area  variation-2 height-750">
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-8">
@@ -30,12 +30,12 @@ const ClassicLms = ({ blogdata }) => {
                     <span className="rbt-new-badge-icon">🏆</span> The Leader in
                     Online Learning
                   </div>
-                  <h1 className="" style={{ color: "var(--color-violet)" }}>
+                  <h1 className="" style={{ color: "var(--color-brown)" }}>
                     The Largest
                     <span className="color-primary px-3">Online Learning</span>
                     Platform for Drive Your Career.
                   </h1>
-                  <p style={{ color: "var(--color-violet)" }}>
+                  <p style={{ color: "var(--color-brown)" }}>
                     This template includes all the necessary pages of the
                     onlineLorem. And you can be build Link
                     <strong>education template easily</strong>.
@@ -69,7 +69,7 @@ const ClassicLms = ({ blogdata }) => {
           </div>
         </div>
       </div>
-      <div className="rbt-categories-area bg-color-white rbt-section-gap">
+      <div className="rbt-categories-area  rbt-section-gap">
         <div className="container">
           <div className="row g-5 align-items-start mb--30">
             <div className="col-lg-6 col-md-6 col-12">
@@ -93,10 +93,8 @@ const ClassicLms = ({ blogdata }) => {
           </div>
         </div>
       </div>
-      <div className="rbt-newsletter-area bg-gradient-6 ptb--50">
-        <NewsletterThree />
-      </div>
-      <div className="rbt-course-area bg-color-white rbt-section-gap">
+     
+      <div className="rbt-course-area  rbt-section-gapBottom">
         <div className="container">
           <div className="row mb--55 g-5 align-items-end">
             <div className="col-lg-6 col-md-6 col-12">
@@ -133,10 +131,10 @@ const ClassicLms = ({ blogdata }) => {
           </div>
         </div>
       </div>
-      <div className="rbt-testimonial-area bg-color-extra2 rbt-section-gap">
+      <div className="rbt-testimonial-area  ">
         <TestimonialFour />
       </div>
-      <div className="rbt-rbt-blog-area rbt-section-gapTop bg-color-white">
+      <div className="rbt-rbt-blog-area rbt-section-gapTop ">
         <div className="container">
           <div className="row mb--55 g-5 align-items-end">
             <div className="col-lg-6 col-md-6 col-12">
@@ -168,7 +166,7 @@ const ClassicLms = ({ blogdata }) => {
           />
         </div>
       </div>
-      <div className="rbt-instagram-area bg-color-white rbt-section-gapTop">
+      <div className="rbt-instagram-area  rbt-section-gap">
         <div className="container">
           <div className="row">
             <div className="col-lg-12 mb--60">
@@ -183,6 +181,9 @@ const ClassicLms = ({ blogdata }) => {
           </div>
         </div>
         <Instagram />
+      </div>
+      <div className="rbt-newsletter-area  ptb--50">
+        <NewsletterThree />
       </div>
     </>
   );

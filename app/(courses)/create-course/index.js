@@ -18,9 +18,9 @@ const CreateCoursePage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType={true} />
           <MobileMenu />
-          <Cart />
+         
 
-          <div className="rbt-create-course-area bg-color-white rbt-section-gap">
+          <div className="rbt-create-course-area  rbt-section-gap">
             <div className="container">
               <CreateCourse />
             </div>

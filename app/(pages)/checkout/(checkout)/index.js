@@ -19,9 +19,9 @@ const CheckoutPage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="Checkout" text="Checkout" />
-          <div className="checkout_area bg-color-white rbt-section-gap">
+          <div className="checkout_area  rbt-section-gap">
             <Checkout />
           </div>
 

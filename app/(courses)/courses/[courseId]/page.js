@@ -12,7 +12,7 @@ const Page = ({ params }) => {
     <>
       <SingleCoursePage getParams={params} />
 
-      <BackToTop />
+     
     </>
   );
 };

@@ -13,7 +13,7 @@ import CategoryTwo from "./CategoryTwo";
 const Categories = () => {
   return (
     <>
-      <div className="rbt-categories-area bg-color-white rbt-section-gap">
+      <div className="rbt-categories-area  rbt-section-gap">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -43,7 +43,7 @@ const Categories = () => {
         </div>
       </div>
 
-      <div className="rbt-categories-area bg-color-white rbt-section-gap">
+      <div className="rbt-categories-area  rbt-section-gap">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -87,7 +87,7 @@ const Categories = () => {
         </div>
       </div>
 
-      <div className="rbt-categories-area bg-color-white rbt-section-gap">
+      <div className="rbt-categories-area  rbt-section-gap">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -117,7 +117,7 @@ const Categories = () => {
         </div>
       </div>
 
-      <div className="rbt-categories-area bg-color-white rbt-section-gap">
+      <div className="rbt-categories-area  rbt-section-gap">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -160,7 +160,7 @@ const Categories = () => {
         </div>
       </div>
 
-      <div className="rbt-categories-area bg-color-white rbt-section-gap">
+      <div className="rbt-categories-area  rbt-section-gap">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

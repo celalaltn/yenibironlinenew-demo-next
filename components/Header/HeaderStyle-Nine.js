@@ -7,11 +7,11 @@ const HeaderStyleNine = () => {
   const { isLightTheme, toggleTheme } = useAppContext();
   return (
     <>
-      <DarkSwitch isLight={isLightTheme} switchTheme={toggleTheme} />
+      {/* <DarkSwitch isLight={isLightTheme} switchTheme={toggleTheme} /> */}
       <header className="rbt-header rbt-header-9">
         <div className="rbt-sticky-placeholder"></div>
 
-        <div className="rbt-header-middle position-relative rbt-header-mid-1 bg-color-white rbt-border-bottom">
+        <div className="rbt-header-middle position-relative bg-color-white rbt-header-mid-1  rbt-border-bottom">
           <HeaderTopMidThree flexDirection="" />
         </div>
 

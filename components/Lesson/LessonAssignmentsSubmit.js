@@ -6,7 +6,7 @@ const LessonAssignmentsSubmit = () => {
     <>
       <div className="section-title">
         <h4>The Complete JavaScript Course 2023: From Zero to Expert!.</h4>
-        <div className="bg-color-white rbt-shadow-box">
+        <div className=" rbt-shadow-box">
           <h5 className="rbt-title-style-3">Assignment Submission</h5>
 
           <form action="#">

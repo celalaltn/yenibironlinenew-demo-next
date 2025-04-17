@@ -11,7 +11,7 @@ const CounterLayout = () => {
     <>
       <CounterPage />
 
-      <BackToTop />
+     
     </>
   );
 };

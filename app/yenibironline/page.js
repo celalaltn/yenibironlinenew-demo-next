@@ -12,7 +12,7 @@ const ClassicLmsLayout = async () => {
   return (
     <>
       <ClassicLmsPage getAllBlogs={blog} />
-      <BackToTop />
+     
     </>
   );
 };

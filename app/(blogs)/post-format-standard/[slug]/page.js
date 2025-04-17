@@ -32,7 +32,7 @@ const PostFormatStandardlayout = async ({ params }) => {
     return (
       <>
         <SingleBlog getParams={content} getAllblog={blog} />
-        <BackToTop />
+       
       </>
     );
   } catch (error) {

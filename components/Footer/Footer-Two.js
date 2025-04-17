@@ -9,7 +9,7 @@ const FooterTwo = () => {
   const { isLightTheme } = useAppContext();
   return (
     <>
-      <div className="footer-style-2 ptb--60 bg-color-white">
+      <div className="footer-style-2 ptb--60 ">
         <div className="container-fluid">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-12">

@@ -10,7 +10,7 @@ const SingleCourseLayoutThree = ({ params }) => {
   return (
     <>
       <SingleCourse getParams={params} />
-      <BackToTop />
+     
     </>
   );
 };

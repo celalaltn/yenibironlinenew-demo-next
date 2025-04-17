@@ -18,9 +18,9 @@ const InstagramPage = () => {
       <Provider store={Store}>
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
-          <Cart />
+         
           <BreadCrumb title="Instagram" text="Instagram" />
-          <div className="rbt-instagram-area bg-color-white rbt-section-gap">
+          <div className="rbt-instagram-area  rbt-section-gap">
             <Instagram />
           </div>
           <MobileMenu />

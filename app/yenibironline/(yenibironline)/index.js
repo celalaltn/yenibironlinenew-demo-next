@@ -15,7 +15,7 @@ const ClassicLmsPage = ({ getAllBlogs }) => {
         <Context>
          
           <ClassicLms blogdata={getAllBlogs} />
-          <Cart />
+         
 
           <Separator />
         </Context>

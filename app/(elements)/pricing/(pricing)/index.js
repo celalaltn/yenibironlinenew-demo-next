@@ -23,16 +23,16 @@ const PricingPage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="Pricing" text="Pricing" />
 
-          <div className="rbt-pricing-area bg-color-white rbt-section-gap">
+          <div className="rbt-pricing-area  rbt-section-gap">
             <Pricing title="Style One" tag="COURSE PRICING" />
           </div>
           <div className="rbt-pricing-area bg-color-extra2 rbt-section-gap">
             <PricingTwo title="Style Two" tag="COURSE PRICING" />
           </div>
-          <div className="rbt-pricing-area bg-color-white rbt-section-gap">
+          <div className="rbt-pricing-area  rbt-section-gap">
             <PricingThree
               title="Style Three"
               tag="COURSE PRICING"
@@ -43,7 +43,7 @@ const PricingPage = () => {
           <div className="rbt-pricing-area bg-color-extra2 rbt-section-gap">
             <PricingFour title="Style Four" tag="COURSE PRICING" />
           </div>
-          <div className="rbt-pricing-area bg-color-white rbt-section-gap">
+          <div className="rbt-pricing-area  rbt-section-gap">
             <PricingFive title="Style Four" tag="COURSE PRICING" />
           </div>
 

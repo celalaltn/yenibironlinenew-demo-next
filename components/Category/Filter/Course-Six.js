@@ -87,10 +87,7 @@ const CourseSix = () => {
                           height={244}
                           alt="Card image"
                         />
-                        <div className="rbt-badge-3 bg-white">
-                          <span>-{data.offPrice}%</span>
-                          <span>Off</span>
-                        </div>
+                       
                       </Link>
                     </div>
                     <div className="rbt-card-body">

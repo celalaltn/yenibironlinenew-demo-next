@@ -77,7 +77,7 @@ const Kindergarten = ({ blogs }) => {
         </div>
       </div>
 
-      <div className="service-wrapper rbt-section-gap bg-color-white">
+      <div className="service-wrapper rbt-section-gap ">
         <div className="container">
           <div className="row mb--60">
             <div className="col-lg-12">
@@ -140,7 +140,7 @@ const Kindergarten = ({ blogs }) => {
         </div>
       </div>
 
-      <div className="rbt-counterup-area bg-color-white rbt-section-gap">
+      <div className="rbt-counterup-area  rbt-section-gap">
         <CounterTwo />
       </div>
 
@@ -148,7 +148,7 @@ const Kindergarten = ({ blogs }) => {
         <Pricing title="Histudy Course Plan" tag="COURSE PRICING" />
       </div>
 
-      <div className="rbt-team-area bg-color-white rbt-section-gap">
+      <div className="rbt-team-area  rbt-section-gap">
         <div className="container">
           <div className="row mb--60">
             <div className="col-lg-12">
@@ -199,7 +199,7 @@ const Kindergarten = ({ blogs }) => {
         <Testimonial />
       </div>
 
-      <div className="rbt-rbt-blog-area rbt-section-gap bg-color-white">
+      <div className="rbt-rbt-blog-area rbt-section-gap ">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

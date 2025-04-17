@@ -32,7 +32,7 @@ const MainDemo = ({ blogs }) => {
           <MainDemoBanner />
         </div>
 
-        <div className="rbt-categories-area bg-color-white rbt-section-gapBottom">
+        <div className="rbt-categories-area  rbt-section-gapBottom">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -99,7 +99,7 @@ const MainDemo = ({ blogs }) => {
           </div>
         </div>
 
-        <div className="rbt-about-area bg-color-white rbt-section-gapTop pb_md--80 pb_sm--80 about-style-1">
+        <div className="rbt-about-area  rbt-section-gapTop pb_md--80 pb_sm--80 about-style-1">
           <div className="container">
             <ParallaxProvider>
               <AboutTwo />
@@ -117,7 +117,7 @@ const MainDemo = ({ blogs }) => {
           </div>
         </div>
 
-        <div className="rbt-testimonial-area bg-color-white rbt-section-gap overflow-hidden">
+        <div className="rbt-testimonial-area  rbt-section-gap overflow-hidden">
           <div className="wrapper">
             <div className="container">
               <div className="row">
@@ -156,7 +156,7 @@ const MainDemo = ({ blogs }) => {
           </div>
         </div>
 
-        <div className="rbt-team-area bg-color-white rbt-section-gap">
+        <div className="rbt-team-area  rbt-section-gap">
           <div className="container">
             <div className="row mb--60">
               <div className="col-lg-12">

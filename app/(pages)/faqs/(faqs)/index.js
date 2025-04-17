@@ -19,10 +19,10 @@ const FaqsPage = () => {
       <Provider store={Store}>
         <Context>
        
-          <Cart />
+         
           <BreadCrumb title="Faqs" text="Faqs" />
 
-          <div className="rbt-accordion-area accordion-style-1 bg-color-white rbt-section-gap">
+          <div className="rbt-accordion-area accordion-style-1  rbt-section-gap">
             <Faq />
           </div>
           <ContactForm gap="rbt-section-gap" />

@@ -50,10 +50,7 @@ const Events = ({
                     priority
                     alt="Card image"
                   />
-                  <div className="rbt-badge-3 bg-white">
-                    <span>{data.badgeDate}</span>
-                    <span>{data.badgeYear}</span>
-                  </div>
+                
                 </Link>
               </div>
               <div className="rbt-card-body">

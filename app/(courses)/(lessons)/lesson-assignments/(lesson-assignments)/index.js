@@ -12,7 +12,7 @@ const LessonAssignmentPage = () => {
 
   return (
     <>
-      <div className="rbt-lesson-area bg-color-white">
+      <div className="rbt-lesson-area ">
         <div className="rbt-lesson-content-wrapper">
           <div
             className={`rbt-lesson-leftsidebar ${
@@ -34,7 +34,7 @@ const LessonAssignmentPage = () => {
                   <h4>
                     The Complete JavaScript Course 2023: From Zero to Expert!.
                   </h4>
-                  <div className="bg-color-white rbt-shadow-box">
+                  <div className=" rbt-shadow-box">
                     <h5 className="rbt-title-style-3">Your Assignment</h5>
                     <p>Content Here</p>
                     <div className="submit-btn">

@@ -84,7 +84,7 @@ const UniversityStatus = () => {
         </div>
       </div>
 
-      <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gap">
+      <div className="rbt-about-area about-style-1  rbt-section-gap">
         <div className="container">
           <AboutThree />
         </div>
@@ -106,13 +106,13 @@ const UniversityStatus = () => {
         </div>
       </div>
 
-      <div className="rbt-counterup-area bg-color-white rbt-section-gapTop">
+      <div className="rbt-counterup-area  rbt-section-gapTop">
         <div className="container">
           <CounterSix head={false} />
         </div>
       </div>
 
-      <div className="rbt-split-area bg-color-white rbt-section-gapTop overflow-hidden">
+      <div className="rbt-split-area  rbt-section-gapTop overflow-hidden">
         <div className="wrapper">
           <div className="rbt-splite-style">
             <div className="split-wrapper">
@@ -122,7 +122,7 @@ const UniversityStatus = () => {
         </div>
       </div>
 
-      <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gap">
+      <div className="rbt-about-area about-style-1  rbt-section-gap">
         <div className="wrapper">
           <div className="container">
             <AboutFour />
@@ -151,7 +151,7 @@ const UniversityStatus = () => {
         </div>
       </div>
 
-      <div className="rbt-service-area bg-color-white rbt-section-gap">
+      <div className="rbt-service-area  rbt-section-gap">
         <div className="container">
           <div className="row mb--60 g-5 align-items-end">
             <div className="col-lg-6 col-md-6 col-12">
@@ -178,11 +178,11 @@ const UniversityStatus = () => {
         <CallToActionSix />
       </div>
 
-      <div className="rbt-accordion-area accordion-style-1 bg-color-white rbt-section-gap">
+      <div className="rbt-accordion-area accordion-style-1  rbt-section-gap">
         <Course title="Tuition & Fees" tag="COURSE PRICING" />
       </div>
 
-      <div className="rbt-rbt-blog-area rbt-section-gapTop bg-color-white">
+      <div className="rbt-rbt-blog-area rbt-section-gapTop ">
         <div className="container">
           <div className="row mb--55 g-5 align-items-end">
             <div className="col-lg-6 col-md-6 col-12">

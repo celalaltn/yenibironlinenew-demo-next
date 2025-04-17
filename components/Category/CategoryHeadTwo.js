@@ -16,7 +16,6 @@ const CategoryHeadTwo = ({ category }) => {
   return (
     <>
       <div className="rbt-page-banner-wrapper">
-        <div className="rbt-banner-image"></div>
 
         <div className="rbt-banner-content">
           {category ? (
@@ -77,7 +76,7 @@ const CategoryHeadTwo = ({ category }) => {
                 <div className="col-lg-7 col-md-12">
                   <div className="rbt-sorting-list d-flex flex-wrap align-items-center justify-content-start justify-content-lg-end">
                     <div className="rbt-short-item">
-                      <form action="#" className="rbt-search-style me-0">
+                      <form action="#" className="rbt-search-style me-0" >
                         <input type="text" placeholder="Search Your Course.." />
                         <button
                           type="submit"

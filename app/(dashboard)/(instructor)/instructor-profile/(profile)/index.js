@@ -20,7 +20,7 @@ const InstructorProfile = () => {
       <Provider store={Store}>
         <Context>
          
-          <Cart />
+         
 
           <div className="rbt-page-banner-wrapper">
             <div className="rbt-banner-image" />

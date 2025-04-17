@@ -436,7 +436,7 @@ const ArtDesignSchool = ({ blogdata }) => {
         </div>
       </div>
 
-      <div className="rbt-testimonial-area testimonial-section-02 bg-color-white rbt-section-gap overflow-hidden">
+      <div className="rbt-testimonial-area testimonial-section-02  rbt-section-gap overflow-hidden">
         <div className="shape-1">
           <Image src={testimonialShape} width={141} height={140} alt="Shape" />
         </div>
@@ -486,7 +486,7 @@ const ArtDesignSchool = ({ blogdata }) => {
         </div>
       </div>
 
-      <div className="rbt-instagram-area bg-color-white rbt-section-gapTop">
+      <div className="rbt-instagram-area  rbt-section-gapTop">
         <div className="container">
           <div className="row">
             <div className="col-lg-12 mb--60 mb_sm--50">

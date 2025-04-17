@@ -20,7 +20,7 @@ const HeaderStylePage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="Header" text="Header" />
 
           <main className="main-wrapper">

@@ -117,7 +117,7 @@ const CourseBreadcrumbThree = ({ getMatchCourse }) => {
         </div>
       </div>
       <div className="col-lg-5">
-        <div className="radius-10 overflow-hidden p-4 bg-color-white-opacity mt_md--60 mt_sm--60 mt_mobile--40">
+        <div className="radius-10 overflow-hidden p-4 -opacity mt_md--60 mt_sm--60 mt_mobile--40">
           <div className="plyr__video-embed rbtplayer">
             <iframe
               className="radius-10 overflow-hidden"

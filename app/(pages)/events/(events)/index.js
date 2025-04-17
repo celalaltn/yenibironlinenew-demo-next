@@ -21,7 +21,7 @@ const EventSiderbarPage = () => {
       <Provider store={Store}>
         <Context>
          
-          <Cart />
+         
 
           <EventHead />
           <div className="rbt-counterup-area rbt-section-overlayping-top rbt-section-gapBottom">

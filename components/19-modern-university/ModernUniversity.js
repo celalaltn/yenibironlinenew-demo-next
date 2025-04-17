@@ -408,14 +408,7 @@ const ModernUniversity = ({ blogdata }) => {
                                 height={244}
                                 alt="Card image"
                               />
-                              {data.offPrice > 0 ? (
-                                <div className="rbt-badge-3 bg-white">
-                                  <span>-{data.offPrice}%</span>
-                                  <span>Off</span>
-                                </div>
-                              ) : (
-                                ""
-                              )}
+                             
                             </Link>
                           </div>
                           <div className="rbt-card-body">
@@ -498,7 +491,7 @@ const ModernUniversity = ({ blogdata }) => {
           </div>
         </div>
 
-        <div className="rbt-video-area video-section-02 bg-color-white rbt-section-gap">
+        <div className="rbt-video-area video-section-02  rbt-section-gap">
           <div className="shape-1">
             <Image src={starIcon} width={84} height={126} alt="Star Shape" />
           </div>
@@ -603,7 +596,7 @@ const ModernUniversity = ({ blogdata }) => {
           </div>
         </div>
 
-        <div className="rbt-accordion-area accordion-style-1 accordion-section-02 bg-color-white rbt-section-gapBottom">
+        <div className="rbt-accordion-area accordion-style-1 accordion-section-02  rbt-section-gapBottom">
           <div className="container">
             <div className="row mb--60">
               <div className="col-lg-12">
@@ -788,7 +781,7 @@ const ModernUniversity = ({ blogdata }) => {
           </div>
         </div>
 
-        <div className="rbt-testimonial-area bg-color-white rbt-section-gap">
+        <div className="rbt-testimonial-area  rbt-section-gap">
           <TestimonialFour isGradient={true} />
           <div className="container">
             <div className="mt--80">

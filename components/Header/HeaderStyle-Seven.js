@@ -19,7 +19,7 @@ const HeaderStyleSeven = ({ headerSticky }) => {
 
         <HeaderTwo
           headerSticky={headerSticky}
-          transparent="bg-color-white color-white-variation header-sticky rbt-border-bottom-light"
+          transparent=" color-white-variation header-sticky rbt-border-bottom-light"
           container="container-fluid"
           gapSpaceBetween=""
           navigationEnd="rbt-navigation-end"

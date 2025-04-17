@@ -28,40 +28,40 @@ const ServicePage = () => {
       <Provider store={Store}>
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
-          <Cart />
+         
           <BreadCrumb title="Service Box" text="Service Box" />
 
-          <div className="rbt-service-area bg-color-white rbt-section-gap">
+          <div className="rbt-service-area  rbt-section-gap">
             <Service />
           </div>
           <div className="rbt-service-area bg-color-extra2 rbt-section-gap">
             <ServiceTwo />
           </div>
-          <div className="rbt-service-area bg-color-white rbt-section-gap">
+          <div className="rbt-service-area  rbt-section-gap">
             <ServiceThree />
           </div>
           <div className="rbt-service-area bg-color-extra2 rbt-section-gap">
             <ServiceFour />
           </div>
-          <div className="rbt-service-area bg-color-white rbt-section-gap">
+          <div className="rbt-service-area  rbt-section-gap">
             <ServiceFive />
           </div>
           <div className="rbt-service-area bg-color-extra2 rbt-section-gap">
             <ServiceSix />
           </div>
-          <div className="rbt-service-area bg-color-white rbt-section-gap">
+          <div className="rbt-service-area  rbt-section-gap">
             <ServiceSaven isTitle={true} />
           </div>
           <div className="rbt-service-area bg-color-extra2 rbt-section-gap">
             <ServiceEight isHead={true} />
           </div>
-          <div className="rbt-service-area bg-color-white rbt-section-gap">
+          <div className="rbt-service-area  rbt-section-gap">
             <ServiceNine />
           </div>
           <div className="rbt-rbt-card-area bg-color-extra2 rbt-section-gap">
             <ServiceTen head={true} />
           </div>
-          <div className="rbt-rbt-card-area bg-color-white rbt-section-gap">
+          <div className="rbt-rbt-card-area  rbt-section-gap">
             <ServiceEleven />
           </div>
           <div className="rbt-rbt-card-area bg-color-extra2 rbt-section-gap">

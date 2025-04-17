@@ -15,7 +15,7 @@ const HeaderStyleSix = ({ headerType, isShadow }) => {
         <div className="rbt-sticky-placeholder"></div>
         {router.pathname === "/02-course-school" ? <HeaderTopBar /> : ""}
         <HeaderSix
-          sticky="bg-color-white header-sticky"
+          sticky=" header-sticky"
           gapSpaceBetween=""
           navigationEnd="rbt-navigation-center"
           btnClass="rbt-switch-btn btn-gradient btn-sm hover-transform-none"

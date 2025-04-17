@@ -11,7 +11,7 @@ const EnrolledCourseLayout = () => {
     <>
       <EnrolledCoursePage />
 
-      <BackToTop />
+     
     </>
   );
 };

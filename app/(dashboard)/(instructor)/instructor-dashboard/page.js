@@ -10,7 +10,7 @@ const InstructorDashboardLayout = () => {
   return (
     <>
       <InstructorDashboard />
-      <BackToTop />
+     
     </>
   );
 };

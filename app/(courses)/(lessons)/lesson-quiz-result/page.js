@@ -10,7 +10,7 @@ const LessonQuizResultPage = () => {
   return (
     <>
       <LessonQuizResultLayout />
-      <BackToTop />
+     
     </>
   );
 };

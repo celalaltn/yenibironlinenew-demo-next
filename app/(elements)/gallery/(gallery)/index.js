@@ -18,7 +18,7 @@ const GalleryPage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="Gallery" text="Gallery" />
 
           <Gallery />

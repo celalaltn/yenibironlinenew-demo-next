@@ -4,7 +4,7 @@ import AboutUsData from "../../data/pages/aboutUs01.json";
 const Teacher = () => {
   return (
     <>
-      <div className="rbt-team-area bg-color-white rbt-section-gapBottom">
+      <div className="rbt-team-area  rbt-section-gapBottom">
         {AboutUsData &&
           AboutUsData.aboutUsO1.map((data, index) => (
             <div className="container" key={index}>

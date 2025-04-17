@@ -23,20 +23,20 @@ const AcademyGallery = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="Academy Gallery" text="Academy Gallery" />
 
-          <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gap">
+          <div className="rbt-about-area about-style-1  rbt-section-gap">
             <div className="container">
               <AcademyGalleryOne />
             </div>
           </div>
-          <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gapBottom">
+          <div className="rbt-about-area about-style-1  rbt-section-gapBottom">
             <div className="container">
               <AcademyGalleryTwo />
             </div>
           </div>
-          <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gapBottom">
+          <div className="rbt-about-area about-style-1  rbt-section-gapBottom">
             <div className="container">
               <AcademyGalleryThree />
             </div>

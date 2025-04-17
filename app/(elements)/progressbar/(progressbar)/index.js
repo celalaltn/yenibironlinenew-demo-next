@@ -21,18 +21,18 @@ const ProgressbarPage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
 
           <BreadCrumb title="Progressbar" text="Progressbar" />
 
-          <div className="rbt-progressbar-area bg-color-white rbt-section-gap">
+          <div className="rbt-progressbar-area  rbt-section-gap">
             <Progressbar />
           </div>
           <div className="rbt-progressbar-area bg-color-extra2 rbt-section-gap">
             <ProgressbarTwo />
           </div>
 
-          <div className="rbt-progressbar-area bg-color-white rbt-section-gap">
+          <div className="rbt-progressbar-area  rbt-section-gap">
             <ProgressbarThree />
           </div>
 

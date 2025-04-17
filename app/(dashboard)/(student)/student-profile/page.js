@@ -10,7 +10,7 @@ const StudentProfileLayout = () => {
   return (
     <>
       <StudentProfile />
-      <BackToTop />
+     
     </>
   );
 };

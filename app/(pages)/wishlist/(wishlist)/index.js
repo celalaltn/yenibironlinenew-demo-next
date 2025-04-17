@@ -16,7 +16,7 @@ const WishlistPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <Cart />
+         
 
           <Wishlist />
 

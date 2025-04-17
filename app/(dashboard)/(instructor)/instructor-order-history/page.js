@@ -12,7 +12,7 @@ const OrderHistoryLayout = () => {
     <>
       <OrderHistoryPage />
 
-      <BackToTop />
+     
     </>
   );
 };

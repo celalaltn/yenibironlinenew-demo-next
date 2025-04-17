@@ -37,10 +37,7 @@ const EventWidget = ({ event, widgetStyle = "card" }) => {
                 src={event.thumbnailImage}
                 alt="Event image"
               />
-              <div className="rbt-badge-3 bg-white">
-                <span>{eventDateMonth}</span>
-                <span>{eventYear}</span>
-              </div>
+              
             </a>
           </div>
           <div className="rbt-card-body">

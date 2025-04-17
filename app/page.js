@@ -8,10 +8,10 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main>
+    <main >
       <HomePage />
 
-      <BackToTop />
+     
     </main>
   );
 }

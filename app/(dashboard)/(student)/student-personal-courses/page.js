@@ -12,7 +12,7 @@ const PersonalCoursesLayout = () => {
     <>
       <PersonalCoursesPage />
 
-      <BackToTop />
+     
     </>
   );
 };

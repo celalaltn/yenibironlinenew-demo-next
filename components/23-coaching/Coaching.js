@@ -219,7 +219,7 @@ const Coaching = ({ blogdata }) => {
           </div>
         </div>
 
-        <div className="rbt-video-area bg-color-white rbt-section-gap overflow-hidden">
+        <div className="rbt-video-area  rbt-section-gap overflow-hidden">
           <div className="container">
             <div className="row mb--60 mb_sm--50">
               <div className="col-lg-12">

@@ -13,7 +13,7 @@ const BlogWithSidebarLayout = async () => {
   return (
     <>
       <BlogWithSidebarPage getAllBlogs={blog} />
-      <BackToTop />
+     
     </>
   );
 };

@@ -11,7 +11,7 @@ const SearchLayout = () => {
     <>
       <SearchPage />
 
-      <BackToTop />
+     
     </>
   );
 };

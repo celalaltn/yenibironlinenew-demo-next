@@ -4,7 +4,7 @@ import React from "react";
 const QuestionType = () => {
   return (
     <>
-      <div className="rbt-lesson-area bg-color-white">
+      <div className="rbt-lesson-area ">
         <div className="rbt-lesson-content-wrapper">
           <div className="inner py-0">
             <div className="section-title">

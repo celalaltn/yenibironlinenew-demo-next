@@ -193,7 +193,7 @@ const SingleCourse = () => {
         </div>
       </div>
 
-      <div className="rbt-testimonial-area bg-color-white rbt-section-gap overflow-hidden">
+      <div className="rbt-testimonial-area  rbt-section-gap overflow-hidden">
         <div className="wrapper">
           <div className="container">
             <div className="row">
@@ -214,7 +214,7 @@ const SingleCourse = () => {
         <TestimonialSeven />
       </div>
 
-      <div className="rbt-pricing-area bg-color-white rbt-section-gapBottom">
+      <div className="rbt-pricing-area  rbt-section-gapBottom">
         <div className="container">
           <div className="row g-5 mb--60">
             <div className="col-lg-12">
@@ -299,7 +299,7 @@ const SingleCourse = () => {
         </div>
       </div>
 
-      <div className="rbt-newsletter-area bg-color-white rbt-section-gap">
+      <div className="rbt-newsletter-area  rbt-section-gap">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

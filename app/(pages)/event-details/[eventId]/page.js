@@ -10,7 +10,7 @@ const SingleEventLayout = ({ params }) => {
   return (
     <>
       <SingleEvent getParams={params} />
-      <BackToTop />
+     
     </>
   );
 };

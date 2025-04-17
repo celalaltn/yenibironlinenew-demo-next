@@ -11,7 +11,7 @@ const CallToActionLayout = () => {
     <>
       <CallToActionPage />
 
-      <BackToTop />
+     
     </>
   );
 };

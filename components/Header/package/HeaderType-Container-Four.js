@@ -11,7 +11,7 @@ const HeaderTypeFour = () => {
       <header className="rbt-header rbt-header-4 rbt-header-4-container-var">
         <div className="rbt-sticky-placeholder"></div>
         <HeaderTopFour
-          bgColor="bg-color-white rbt-border-bottom"
+          bgColor=" rbt-border-bottom"
           gapSpaceBetween="header-space-betwween"
           container="container"
           flexDirection=""
@@ -20,7 +20,7 @@ const HeaderTypeFour = () => {
         />
 
         <HeaderFour
-          sticky="bg-color-white header-sticky"
+          sticky=" header-sticky"
           gapSpaceBetween="header-space-betwween shadow-none"
           container="container"
           navigationEnd="rbt-navigation-start"

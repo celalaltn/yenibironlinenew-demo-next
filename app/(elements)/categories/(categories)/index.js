@@ -18,7 +18,7 @@ const CategoriesPage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="Categories" text="Categories" />
 
           <Categories />

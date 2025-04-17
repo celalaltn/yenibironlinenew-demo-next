@@ -2,7 +2,7 @@ const BorderRadius = () => {
   return (
     <div
       id="rbtBorderRadius"
-      className="rbt-elements-area bg-color-white rbt-shadow-box mb--60"
+      className="rbt-elements-area  rbt-shadow-box mb--60"
     >
       <div className="wrapper">
         <div className="section-title">

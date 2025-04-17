@@ -56,7 +56,7 @@ const InstructorPortfolio = () => {
         <AboutFive />
       </div>
 
-      <div className="rbt-service-area bg-color-white rbt-section-gapBottom">
+      <div className="rbt-service-area  rbt-section-gapBottom">
         <div className="container">
           <div className="row mb--60">
             <div className="col-lg-12">
@@ -121,7 +121,7 @@ const InstructorPortfolio = () => {
         </div>
       </div>
 
-      <div className="rbt-course-area bg-color-white rbt-section-gap">
+      <div className="rbt-course-area  rbt-section-gap">
         <div className="container">
           <div className="row mb--60">
             <div className="col-lg-12">
@@ -149,14 +149,7 @@ const InstructorPortfolio = () => {
                           height={244}
                           alt="Card image"
                         />
-                        {data.offPrice > 0 ? (
-                          <div className="rbt-badge-3 bg-white">
-                            <span>-{data.offPrice}%</span>
-                            <span>Off</span>
-                          </div>
-                        ) : (
-                          ""
-                        )}
+                        
                       </Link>
                     </div>
                     <div className="rbt-card-body">
@@ -227,7 +220,7 @@ const InstructorPortfolio = () => {
         </div>
       </div>
 
-      <div className="rbt-pricing-area bg-color-white rbt-section-gapTop">
+      <div className="rbt-pricing-area  rbt-section-gapTop">
         <div className="container">
           <div className="row g-5 mb--60">
             <div className="col-12">
@@ -248,7 +241,7 @@ const InstructorPortfolio = () => {
         </div>
       </div>
 
-      <div className="rbt-testimonial-area bg-color-white ptb--100 overflow-hidden">
+      <div className="rbt-testimonial-area  ptb--100 overflow-hidden">
         <div className="container-fluid">
           <div className="row g-5 align-items-center">
             <div className="col-xl-3">
@@ -275,7 +268,7 @@ const InstructorPortfolio = () => {
         </div>
       </div>
 
-      <div className="rbt-contact-me bg-color-white rbt-section-gapBottom">
+      <div className="rbt-contact-me  rbt-section-gapBottom">
         <div className="container">
           <div className="row mb--60">
             <div className="col-lg-12">

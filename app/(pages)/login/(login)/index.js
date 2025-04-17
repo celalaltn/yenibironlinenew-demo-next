@@ -18,10 +18,10 @@ const LoginPage = () => {
       <Provider store={Store}>
         <Context>
          
-          <Cart />
+         
           <BreadCrumb title="Login & Register" text="Login & Register" />
 
-          <div className="rbt-elements-area bg-color-white rbt-section-gap">
+          <div className="rbt-elements-area  rbt-section-gap">
             <div className="container">
               <div className="row gy-5 row--30">
                 <Login />

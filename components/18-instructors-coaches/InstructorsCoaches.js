@@ -224,14 +224,7 @@ const InstructorsCoaches = ({ blogdata }) => {
                                 height={244}
                                 alt="Card image"
                               />
-                              {data.offPrice > 0 ? (
-                                <div className="rbt-badge-3 bg-white">
-                                  <span>-{data.offPrice}%</span>
-                                  <span>Off</span>
-                                </div>
-                              ) : (
-                                ""
-                              )}
+                              
                             </Link>
                           </div>
                           <div className="rbt-card-body">
@@ -314,7 +307,7 @@ const InstructorsCoaches = ({ blogdata }) => {
           </div>
         </div>
 
-        <div className="rbt-video-area video-section-03 bg-color-white rbt-section-gap">
+        <div className="rbt-video-area video-section-03  rbt-section-gap">
           <div className="container">
             <div className="row g-5 align-items-center position-relative">
               <div className="union-shape">
@@ -405,7 +398,7 @@ const InstructorsCoaches = ({ blogdata }) => {
           </div>
         </div>
 
-        <div className="rbt-testimonial-area bg-color-white rbt-section-gapBottom">
+        <div className="rbt-testimonial-area  rbt-section-gapBottom">
           {TestimonialData &&
             TestimonialData.testimonialThree.map((data, index) => (
               <div className="container" key={index}>

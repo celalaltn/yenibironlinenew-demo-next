@@ -11,7 +11,7 @@ const AccordionLayout = () => {
     <>
       <AccordionPage />
 
-      <BackToTop />
+     
     </>
   );
 };

@@ -11,7 +11,7 @@ const AboutLayout = () => {
     <>
       <AboutPage />
 
-      <BackToTop />
+     
     </>
   );
 };

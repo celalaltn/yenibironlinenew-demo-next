@@ -31,7 +31,7 @@ const BlogAudioLayout = async ({ params }) => {
     return (
       <>
         <SingleBlogVideo getParams={content} getAllblog={blog} />
-        <BackToTop />
+       
       </>
     );
   } catch (error) {

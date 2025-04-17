@@ -17,7 +17,7 @@ const BlogWithSidebarPage = ({ getAllBlogs }) => {
       <Provider store={Store}>
         <Context>
          
-          <Cart />
+         
 
           <Banner col="col-lg-12" text="All Courses" blogdata={getAllBlogs} />
           <div className="rbt-blog-area rbt-section-overlayping-top rbt-section-gapBottom">

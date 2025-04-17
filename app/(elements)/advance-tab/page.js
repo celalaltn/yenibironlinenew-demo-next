@@ -11,7 +11,7 @@ const AdvanceTabLayout = () => {
     <>
       <AdvanceTabPage />
 
-      <BackToTop />
+     
     </>
   );
 };

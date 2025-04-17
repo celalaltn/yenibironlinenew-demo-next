@@ -11,7 +11,7 @@ const AnnouncementsLayout = () => {
   return (
     <>
       <AnnouncementsPage />
-      <BackToTop />
+     
     </>
   );
 };

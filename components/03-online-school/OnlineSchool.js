@@ -179,7 +179,7 @@ const OnlineSchool = ({ blogs }) => {
         </div>
       </div>
 
-      <div className="rbt-categories-area bg-color-white rbt-section-gap">
+      <div className="rbt-categories-area  rbt-section-gap">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -260,7 +260,7 @@ const OnlineSchool = ({ blogs }) => {
         </div>
       </div>
 
-      <div className="service-wrapper bg-color-white rbt-section-gap">
+      <div className="service-wrapper  rbt-section-gap">
         <div className="container">
           <div className="row mb--60">
             <div className="col-lg-12">
@@ -289,7 +289,7 @@ const OnlineSchool = ({ blogs }) => {
         <CounterFive />
       </div>
 
-      <div className="rbt-service-area bg-color-white rbt-section-gap">
+      <div className="rbt-service-area  rbt-section-gap">
         <div className="container">
           <div className="row mb--60">
             <div className="col-lg-12">
@@ -319,7 +319,7 @@ const OnlineSchool = ({ blogs }) => {
         </div>
       </div>
 
-      <div className="rbt-events-area bg-color-white rbt-section-gap">
+      <div className="rbt-events-area  rbt-section-gap">
         <div className="container">
           <div className="row mb--60 g-5 align-items-end">
             <div className="col-lg-6 col-md-6 col-12">
@@ -362,7 +362,7 @@ const OnlineSchool = ({ blogs }) => {
         <TeamTen />
       </div>
 
-      <div className="rbt-testimonial-area bg-color-white rbt-section-gap overflow-hidden">
+      <div className="rbt-testimonial-area  rbt-section-gap overflow-hidden">
         <div className="wrapper">
           <div className="container">
             <div className="row">
@@ -383,7 +383,7 @@ const OnlineSchool = ({ blogs }) => {
         <TestimonialTwo />
       </div>
 
-      <div className="rbt-rbt-blog-area bg-color-white rbt-section-gapBottom">
+      <div className="rbt-rbt-blog-area  rbt-section-gapBottom">
         <div className="container">
           <div className="row mb--30 g-5 align-items-end">
             <div className="col-lg-6 col-md-6 col-12">

@@ -46,7 +46,7 @@ const OnlineAcademy = ({ blogdata }) => {
       <main className="rbt-main-wrapper">
         <OnlineAcademyBanner />
 
-        <div className="rbt-category-area category-section-02 bg-color-white rbt-section-gap">
+        <div className="rbt-category-area category-section-02  rbt-section-gap">
           <div className="gradient-shape"></div>
           <div className="container">
             <div className="row">
@@ -131,14 +131,7 @@ const OnlineAcademy = ({ blogdata }) => {
                                 height={244}
                                 alt="Card image"
                               />
-                              {data.offPrice > 0 ? (
-                                <div className="rbt-badge-3 bg-white">
-                                  <span>-{data.offPrice}%</span>
-                                  <span>Off</span>
-                                </div>
-                              ) : (
-                                ""
-                              )}
+                              
                             </Link>
                           </div>
                           <div className="rbt-card-body">
@@ -221,7 +214,7 @@ const OnlineAcademy = ({ blogdata }) => {
           </div>
         </div>
 
-        <div className="rbt-about-area bg-color-white rbt-section-gap about-style-1">
+        <div className="rbt-about-area  rbt-section-gap about-style-1">
           <div className="container">
             <ParallaxProvider>
               <AboutTwo />
@@ -249,7 +242,7 @@ const OnlineAcademy = ({ blogdata }) => {
           </div>
         </div>
 
-        <div className="rbt-testimonial-area bg-color-white rbt-section-gap">
+        <div className="rbt-testimonial-area  rbt-section-gap">
           <TestimonialFour />
           <div className="container">
             <div className="mt--80">

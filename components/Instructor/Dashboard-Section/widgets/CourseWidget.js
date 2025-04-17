@@ -54,10 +54,7 @@ const CourseWidget = ({
               src={data.courseThumbnail}
               alt={data.title}
             />
-            <div className="rbt-badge-3 bg-white">
-              <span>{`-${discountPercentage}%`}</span>
-              <span>Off</span>
-            </div>
+           
           </Link>
         </div>
         <div className="rbt-card-body">

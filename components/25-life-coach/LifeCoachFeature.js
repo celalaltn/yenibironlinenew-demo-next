@@ -6,7 +6,7 @@ import courseFeatures from "../../data/pages/lifeCoach.json";
 const LifeCoachFeature = () => {
   return (
     <>
-      <div className="rbt-feature-area bg-color-white rbt-section-gap">
+      <div className="rbt-feature-area  rbt-section-gap">
         <div className="container">
           <div className="row mb--60 mb_sm--50">
             <div className="col-lg-12">

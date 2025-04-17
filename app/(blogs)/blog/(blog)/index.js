@@ -26,7 +26,7 @@ const BlogGridPage = ({ getAllBlogs }) => {
     <>
       <Provider store={Store}>
         <Context>
-           <Cart />
+          
 
           <Banner col="col-lg-12" text="All Blog" blogdata={getAllBlogs} />
           <div className="rbt-blog-area rbt-section-overlayping-top rbt-section-gapBottom">

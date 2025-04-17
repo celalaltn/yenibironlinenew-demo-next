@@ -11,7 +11,7 @@ const BadgeLayout = () => {
     <>
       <BadgePage />
 
-      <BackToTop />
+     
     </>
   );
 };

@@ -10,7 +10,7 @@ const NewsletterLayout = () => {
   return (
     <>
       <NewsletterPage />
-      <BackToTop />
+     
     </>
   );
 };

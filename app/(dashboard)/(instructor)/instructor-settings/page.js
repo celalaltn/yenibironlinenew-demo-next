@@ -11,7 +11,7 @@ const SettingLayout = () => {
     <>
       <SettingPage />
 
-      <BackToTop />
+     
     </>
   );
 };

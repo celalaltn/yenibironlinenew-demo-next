@@ -10,7 +10,7 @@ const LoginLayout = () => {
   return (
     <>
       <LoginPage />
-      <BackToTop />
+     
     </>
   );
 };

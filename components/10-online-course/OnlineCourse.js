@@ -39,7 +39,7 @@ const OnlineCourse = () => {
         <TestimonialTwo />
       </div>
 
-      <div className="rbt-categories-area bg-color-white rbt-section-gapBottom">
+      <div className="rbt-categories-area  rbt-section-gapBottom">
         <div className="container">
           <div className="row">
             <CategoryThree />
@@ -47,7 +47,7 @@ const OnlineCourse = () => {
         </div>
       </div>
 
-      <div className="rbt-rbt-course-area rbt-section-gapBottom bg-color-white">
+      <div className="rbt-rbt-course-area rbt-section-gapBottom ">
         <div className="container">
           <div className="row g-5 align-items-center mb--50">
             <div className="col-lg-6 col-md-6 col-12">
@@ -165,7 +165,7 @@ const OnlineCourse = () => {
         </div>
       </div>
 
-      <div className="rbt-service-area bg-color-white rbt-section-gapBottom">
+      <div className="rbt-service-area  rbt-section-gapBottom">
         <div className="container">
           <ServiceSaven head={false} />
         </div>
@@ -185,7 +185,7 @@ const OnlineCourse = () => {
         </div>
       </div>
 
-      <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gap">
+      <div className="rbt-about-area about-style-1  rbt-section-gap">
         <div className="container">
           <AboutSix
             btnClass="btn-gradient radius-round rbt-marquee-btn marquee-text-y"
@@ -198,7 +198,7 @@ const OnlineCourse = () => {
         <CallToActionSix />
       </div>
 
-      <div className="rbt-contact-me bg-color-white rbt-section-gap">
+      <div className="rbt-contact-me  rbt-section-gap">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6">

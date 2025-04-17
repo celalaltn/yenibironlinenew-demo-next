@@ -47,14 +47,7 @@ const RelatedCourse = ({ checkMatchCourses, colClass }) => {
                     height={244}
                     alt="Card image"
                   />
-                  {data.discount > 0 ? (
-                    <div className="rbt-badge-3 bg-white">
-                      <span>-{data.discount}%</span>
-                      <span>Off</span>
-                    </div>
-                  ) : (
-                    ""
-                  )}
+                 
                 </Link>
               </div>
               <div className="rbt-card-body">

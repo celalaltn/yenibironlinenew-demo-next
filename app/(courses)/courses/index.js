@@ -46,7 +46,7 @@ const CourseFilteTwoTogglePage = () => {
     <>
       <Provider store={Store}>
         <Context>
-           <Cart />
+          
 
           <CategoryHeadTwo category={getAllCourse} />
           <div className="rbt-section-overlayping-top rbt-section-gapBottom">

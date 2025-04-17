@@ -36,7 +36,7 @@ const SingleProductPage = ({ getParams }) => {
       <Provider store={Store}>
         <Context>
          
-          <Cart />
+         
 
           <SingleProduct
             checkMatchProduct={checkMatch !== undefined ? checkMatch : ""}

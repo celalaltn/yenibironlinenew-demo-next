@@ -10,7 +10,7 @@ const StyleGuideLayout = () => {
   return (
     <>
       <StyleGuidePage />
-      <BackToTop />
+     
     </>
   );
 };

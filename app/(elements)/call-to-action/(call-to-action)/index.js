@@ -32,10 +32,10 @@ const CallToActionPage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="Call To Action" text="Call To Action" />
 
-          <div className="rbt-callto-action-area bg-color-white rbt-section-gap">
+          <div className="rbt-callto-action-area  rbt-section-gap">
             <CallToAction />
           </div>
 

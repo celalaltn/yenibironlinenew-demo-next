@@ -21,10 +21,10 @@ const NewsletterPage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="Newsletter" text="Newsletter" />
 
-          <div className="rbt-newsletter-area bg-color-white rbt-section-gap">
+          <div className="rbt-newsletter-area  rbt-section-gap">
             <Newsletter />
           </div>
 
@@ -36,7 +36,7 @@ const NewsletterPage = () => {
             <NewsletterThree />
           </div>
 
-          <div className="rbt-newsletter-area bg-color-white rbt-section-gap">
+          <div className="rbt-newsletter-area  rbt-section-gap">
             <div className="container">
               <div className="row">
                 <div className="col-lg-12">

@@ -13,7 +13,7 @@ const SingleQuestionLayout = () => {
 
   return (
     <>
-      <div className="rbt-lesson-area bg-color-white">
+      <div className="rbt-lesson-area ">
         <div className="rbt-lesson-content-wrapper">
           <div
             className={`rbt-lesson-leftsidebar ${

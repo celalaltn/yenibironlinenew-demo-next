@@ -32,10 +32,10 @@ const CardPage = () => {
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
-          <Cart />
+         
           <BreadCrumb title="Card" text="Card" />
 
-          <div className="rbt-rbt-card-area rbt-section-gap bg-color-white">
+          <div className="rbt-rbt-card-area rbt-section-gap ">
             <div className="container">
               <div className="row row--15 align-items-center mb--30">
                 <div className="col-lg-12">
@@ -70,7 +70,7 @@ const CardPage = () => {
             </div>
           </div>
 
-          <div className="rbt-rbt-card-area rbt-section-gap bg-color-white">
+          <div className="rbt-rbt-card-area rbt-section-gap ">
             <div className="container">
               <div className="row row--15 align-items-center mb--30">
                 <div className="col-lg-12">
@@ -98,7 +98,7 @@ const CardPage = () => {
             </div>
           </div>
 
-          <div className="rbt-rbt-card-area rbt-section-gap bg-color-white">
+          <div className="rbt-rbt-card-area rbt-section-gap ">
             <div className="container">
               <div className="row row--15 align-items-center mb--30">
                 <div className="col-lg-12">

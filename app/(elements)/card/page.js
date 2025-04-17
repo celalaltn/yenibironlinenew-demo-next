@@ -11,7 +11,7 @@ const CardLayout = () => {
     <>
       <CardPage />
 
-      <BackToTop />
+     
     </>
   );
 };

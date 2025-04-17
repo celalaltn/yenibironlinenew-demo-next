@@ -41,7 +41,7 @@ const SingleEvent = ({ getParams }) => {
     <>
       <Provider store={Store}>
         <Context>
-          <Cart />
+         
 
           <div className="rbt-breadcrumb-default rbt-breadcrumb-style-3">
             {getMatchEvent && <EventBreadCrumb getMatchEvent={getMatchEvent} />}

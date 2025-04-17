@@ -11,7 +11,7 @@ const AdmissionGuideLayout = () => {
     <>
       <AdmissionGuidePage />
 
-      <BackToTop />
+     
     </>
   );
 };

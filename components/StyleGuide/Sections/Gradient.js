@@ -2,7 +2,7 @@ const Gradient = () => {
   return (
     <div
       id="gradient"
-      className="rbt-elements-color bg-color-white rbt-shadow-box mb--60"
+      className="rbt-elements-color  rbt-shadow-box mb--60"
     >
       <div className="wrapper">
         <div className="section-title">

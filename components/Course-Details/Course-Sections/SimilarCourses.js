@@ -28,14 +28,7 @@ const SimilarCourses = ({ checkMatchCourses }) => {
                         height={244}
                         alt="Card image"
                       />
-                      {item.discount > 0 ? (
-                        <div className="rbt-badge-3 bg-white">
-                          <span>-{item.discount}%</span>
-                          <span>Off</span>
-                        </div>
-                      ) : (
-                        ""
-                      )}
+                     
                     </Link>
                   </div>
                   <div className="rbt-card-body">

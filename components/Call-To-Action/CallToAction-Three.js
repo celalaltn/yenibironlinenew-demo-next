@@ -9,7 +9,7 @@ const CallToActionThree = () => {
       {CallToActionData &&
         CallToActionData.collectionThree.map((data, index) => (
           <div
-            className="rbt-callto-action-area bg-color-white rbt-section-gap"
+            className="rbt-callto-action-area  rbt-section-gap"
             key={index}
           >
             <CallToActionHead tag={data.tag} title={data.title} />

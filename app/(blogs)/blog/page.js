@@ -14,7 +14,7 @@ const BlogGridLayout = async () => {
     <>
       <BlogGridPage getAllBlogs={blog} />
 
-      <BackToTop />
+     
     </>
   );
 };

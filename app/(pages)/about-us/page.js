@@ -9,7 +9,7 @@ const AboutUsLayout = () => {
   return (
     <>
       <AboutUsPage />
-      <BackToTop />
+     
     </>
   );
 };

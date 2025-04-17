@@ -53,7 +53,7 @@ const Marketplace = ({ blogdata }) => {
         </div>
       </div>
 
-      <div className="rbt-category-area bg-color-white rbt-section-gapTop">
+      <div className="rbt-category-area  rbt-section-gapTop">
         <div className="container">
           <div className="row g-5">
             <CategoryEight />
@@ -61,7 +61,7 @@ const Marketplace = ({ blogdata }) => {
         </div>
       </div>
 
-      <div className="rbt-featured-course bg-color-white rbt-section-gap">
+      <div className="rbt-featured-course  rbt-section-gap">
         <div className="container">
           <div className="row g-5 align-items-end mb--60">
             <div className="col-lg-6 col-md-12 col-12">
@@ -155,7 +155,7 @@ const Marketplace = ({ blogdata }) => {
         </div>
       </div>
 
-      <div className="rbt-newsletter-area bg-color-white rbt-section-gapBottom pt--60">
+      <div className="rbt-newsletter-area  rbt-section-gapBottom pt--60">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

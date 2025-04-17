@@ -42,7 +42,7 @@ const SingleCourseThree = ({ getParams }) => {
     <>
       <Provider store={Store}>
         <Context>
-           <Cart />
+          
 
           <div className="rbt-breadcrumb-default rbt-breadcrumb-style-3 version-02">
             <CourseHead
@@ -62,7 +62,7 @@ const SingleCourseThree = ({ getParams }) => {
             checkMatchCourses={checkMatch !== undefined ? checkMatch : ""}
           />
 
-          <div className="rbt-related-course-area bg-color-white rbt-section-gapBottom">
+          <div className="rbt-related-course-area  rbt-section-gapBottom">
             <div className="container">
               <div className="related-course mt--60">
                 {checkMatch &&

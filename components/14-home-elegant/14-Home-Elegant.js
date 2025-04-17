@@ -13,7 +13,7 @@ const HomeElegant = () => {
       <div className="rbt-banner-area rbt-banner-8 variation-02 with-shape">
         <HomeElegantBanner />
       </div>
-      <div className="rbt-courses-area rbt-section-gapBottom bg-color-white mt_dec--100 mt_md_dec--30 mt_sm_dec--30">
+      <div className="rbt-courses-area rbt-section-gapBottom  mt_dec--100 mt_md_dec--30 mt_sm_dec--30">
         <div className="container">
           <div className="row">
             <div className="col-lg-10 offset-lg-1 mt_dec--50">
@@ -29,7 +29,7 @@ const HomeElegant = () => {
 
       <CrashCourse />
 
-      <div className="rbt-testimonial-area bg-color-white rbt-section-gap overflow-hidden">
+      <div className="rbt-testimonial-area  rbt-section-gap overflow-hidden">
         <div className="wrapper">
           <div className="container">
             <div className="row">
@@ -75,7 +75,7 @@ const HomeElegant = () => {
         </div>
       </div>
 
-      <div className="rbt-brand-area bg-color-white ptb--60">
+      <div className="rbt-brand-area  ptb--60">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-10 offset-lg-1">
