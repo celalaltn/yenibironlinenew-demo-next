@@ -19,7 +19,7 @@ const SearchPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          
           <BreadCrumb title="Search" text="Search" />
           <div className="rbt-elements-area  rbt-section-gap">
             <Search />

@@ -30,7 +30,7 @@ const CallToActionPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          
           <MobileMenu />
          
           <BreadCrumb title="Call To Action" text="Call To Action" />

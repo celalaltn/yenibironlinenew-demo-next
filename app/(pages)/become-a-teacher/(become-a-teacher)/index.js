@@ -18,7 +18,7 @@ const TeacherPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          
           <MobileMenu />
          
           <BreadCrumb title="Become a Teacher" text="Become a Teacher" />

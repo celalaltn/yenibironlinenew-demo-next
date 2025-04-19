@@ -22,7 +22,7 @@ const CounterPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          
           <MobileMenu />
          
           <BreadCrumb title="Counter" text="Counter" />

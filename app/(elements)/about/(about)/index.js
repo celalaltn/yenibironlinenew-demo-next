@@ -34,7 +34,7 @@ const AboutPage = () => {
 
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          
           <MobileMenu />
          
           <BreadCrumb title="About" text="About" />

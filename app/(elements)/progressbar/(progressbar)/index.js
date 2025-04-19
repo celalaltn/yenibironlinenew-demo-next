@@ -19,7 +19,7 @@ const ProgressbarPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          
           <MobileMenu />
          
 

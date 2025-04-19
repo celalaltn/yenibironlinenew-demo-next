@@ -18,7 +18,7 @@ const SplitPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          
          
           <BreadCrumb title="Split" text="Split" />
 

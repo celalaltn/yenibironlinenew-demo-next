@@ -27,7 +27,7 @@ const InstructorPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          
           <MobileMenu />
          
           <BreadCrumb title="Instructor" text="Instructor" />

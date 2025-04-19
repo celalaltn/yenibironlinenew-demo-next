@@ -19,7 +19,7 @@ const NewsletterPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          
           <MobileMenu />
          
           <BreadCrumb title="Newsletter" text="Newsletter" />

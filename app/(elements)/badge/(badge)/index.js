@@ -18,7 +18,7 @@ const BadgePage = () => {
 
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          
           <MobileMenu />
          
           <BreadCrumb title="Welcome to Histudy Badge" text="Badge" />

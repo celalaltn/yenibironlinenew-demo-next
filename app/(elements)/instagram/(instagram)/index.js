@@ -17,7 +17,7 @@ const InstagramPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          
          
           <BreadCrumb title="Instagram" text="Instagram" />
           <div className="rbt-instagram-area  rbt-section-gap">

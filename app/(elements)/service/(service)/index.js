@@ -27,7 +27,7 @@ const ServicePage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          
          
           <BreadCrumb title="Service Box" text="Service Box" />
 

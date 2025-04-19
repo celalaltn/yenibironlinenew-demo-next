@@ -21,7 +21,7 @@ const AcademyGallery = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          
           <MobileMenu />
          
           <BreadCrumb title="Academy Gallery" text="Academy Gallery" />

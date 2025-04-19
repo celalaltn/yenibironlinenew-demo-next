@@ -33,7 +33,7 @@ const TestimonialPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          
          
           <BreadCrumb title="Testimonial" text="Testimonial" />
 

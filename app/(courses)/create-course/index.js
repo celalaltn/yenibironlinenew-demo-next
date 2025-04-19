@@ -16,7 +16,6 @@ const CreateCoursePage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType={true} />
           <MobileMenu />
          
 
