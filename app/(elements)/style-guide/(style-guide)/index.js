@@ -17,7 +17,6 @@ const StyleGuidePage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="" headerType={true} />
           <MobileMenu />
          
           <BreadCrumb title="Style Guide" text="Style Guide" />
