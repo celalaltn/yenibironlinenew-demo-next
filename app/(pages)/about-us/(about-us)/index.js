@@ -6,14 +6,9 @@ import { Provider } from "react-redux";
 import { ParallaxProvider } from "react-scroll-parallax";
 import Store from "@/redux/store";
 
-import Banner from "@/components/About-Us-01/Banner";
 import Teacher from "@/components/About-Us-01/Teacher";
 import About from "@/components/Abouts/About";
-import FooterOne from "@/components/Footer/Footer-One";
 
-import MobileMenu from "@/components/Header/MobileMenu";
-import Cart from "@/components/Header/Offcanvas/Cart";
-import NewsletterTwo from "@/components/Newsletters/Newsletter-Two";
 import SplitTwo from "@/components/Split/Split-Two";
 import TestimonialSix from "@/components/Testimonials/Testimonial-Six";
 import BreadCrumb from "@/components/Common/BreadCrumb";
@@ -65,9 +60,7 @@ const AboutUsPage = () => {
             </div>
           </div>
           <Teacher />
-          <div className="rbt-newsletter-area newsletter-style-2 bg-color-primary rbt-section-gap">
-            <NewsletterTwo />
-          </div>
+         
 
         </Context>
       </Provider>
