@@ -10,7 +10,6 @@ import FooterOne from "@/components/Footer/Footer-One";
 
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
-import StyleGuide from "@/components/StyleGuide/StyleGuide";
 
 const StyleGuidePage = () => {
   return (

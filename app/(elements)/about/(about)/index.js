@@ -8,19 +8,9 @@ import { ParallaxProvider } from "react-scroll-parallax";
 import sal from "sal.js";
 
 import About from "@/components/Abouts/About";
-import AboutEight from "@/components/Abouts/About-Eight";
-import AboutFive from "@/components/Abouts/About-Five";
-import AboutFour from "@/components/Abouts/About-Four";
-import AboutSaven from "@/components/Abouts/About-Saven";
-import AboutSix from "@/components/Abouts/About-Six";
-import AboutThree from "@/components/Abouts/About-Three";
-import AboutTwo from "@/components/Abouts/About-Two";
 import BreadCrumb from "@/components/Common/BreadCrumb";
-import Separator from "@/components/Common/Separator";
-import FooterOne from "@/components/Footer/Footer-One";
 
 import MobileMenu from "@/components/Header/MobileMenu";
-import Cart from "@/components/Header/Offcanvas/Cart";
 
 const AboutPage = () => {
   useEffect(() => {

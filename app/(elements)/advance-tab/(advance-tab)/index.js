@@ -5,10 +5,6 @@ import Store from "@/redux/store";
 import { Provider } from "react-redux";
 
 import AdvanceTab from "@/components/AdvanceTab/AdvanceTab";
-import AdvanceTabFive from "@/components/AdvanceTab/AdvanceTab-Five";
-import AdvanceTabFour from "@/components/AdvanceTab/AdvanceTab-Four";
-import AdvanceTabThree from "@/components/AdvanceTab/AdvanceTab-Three";
-import AdvancetabTwo from "@/components/AdvanceTab/AdvanceTab-Two";
 import BreadCrumb from "@/components/Common/BreadCrumb";
 import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
