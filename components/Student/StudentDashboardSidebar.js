@@ -1,10 +1,13 @@
 "use client";
 
 import { usePathname } from "next/navigation";
+import { useSelector } from "react-redux";
 import SidebarData from "../../data/dashboard/student/siderbar.json";
 
 const StudentDashboardSidebar = () => {
   const pathname = usePathname();
+  const { user, isAuthenticated } = useSelector((state) => state.AuthReducer);
+  
   return (
     <>
       <div className="rbt-default-sidebar sticky-top rbt-shadow-box rbt-gradient-border">
@@ -12,7 +15,9 @@ const StudentDashboardSidebar = () => {
           <div className="content-item-content">
             <div className="rbt-default-sidebar-wrapper">
               <div className="section-title mb--20">
-                <h6 className="rbt-title-style-2">Welcome, Rafi</h6>
+                <h6 className="rbt-title-style-2">
+                  {isAuthenticated && user ? `Hoşgeldin, ${user.firstName || 'Öğrenci'}` : 'Hoşgeldin'}
+                </h6>
               </div>
               <nav className="mainmenu-nav">
                 <ul className="dashboard-mainmenu rbt-default-sidebar-list">

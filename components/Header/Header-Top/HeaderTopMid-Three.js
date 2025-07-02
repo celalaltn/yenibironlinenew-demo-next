@@ -8,6 +8,7 @@ import { useAppContext } from "@/context/Context";
 const HeaderTopMidThree = ({ flexDirection }) => {
   const { cartToggle, setCart } = useAppContext();
   const { total_items } = useSelector((state) => state.CartReducer);
+  const { isAuthenticated } = useSelector((state) => state.AuthReducer || {});
   return (
     <>
       <div className="container">
@@ -57,14 +58,14 @@ const HeaderTopMidThree = ({ flexDirection }) => {
               <div className="header-info">
                 <ul className="quick-access">
                   <li className="account-access rbt-user-wrapper right-align-dropdown d-none d-xl-block">
-                    <Link href="/login">
-                      <i className="feather-user"></i>Hesabım
+                    <Link href={isAuthenticated ? "/my-account" : "/login"}>
+                      <i className="feather-user"></i>{isAuthenticated ? "Hesabım" : "Giriş Yap"}
                     </Link>
                     <User />
                   </li>
 
                   <li className="access-icon rbt-user-wrapper right-align-dropdown d-block d-xl-none">
-                    <Link className="rbt-round-btn" href="#">
+                    <Link className="rbt-round-btn" href={isAuthenticated ? "/my-account" : "/login"}>
                       <i className="feather-user"></i>
                     </Link>
                     <User />

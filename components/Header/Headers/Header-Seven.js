@@ -10,17 +10,21 @@ import logoLight from "../../../public/images/dark/logo/logo-light.png";
 import Nav from "../Nav";
 import Category from "../Category/Category";
 import { useAppContext } from "@/context/Context";
+import HeaderTopMidThree from "../Header-Top/HeaderTopMid-Three";
 
 const HeaderSeven = ({
   gapSpaceBetween,
   transparent,
   navigationEnd,
   btnClass,
-  btnText,
+
+  isAuthenticated = false,
+  user = null,
   headerType,
 }) => {
   const { mobile, setMobile, isLightTheme } = useAppContext();
   const [isSticky, setIsSticky] = useState(false);
+  const [showUserMenu, setShowUserMenu] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -38,13 +42,48 @@ const HeaderSeven = ({
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+  
+  // Kullanıcı menüsünü dışarıdan tıklandığında kapatmak için
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (showUserMenu && !event.target.closest('.user-dropdown')) {
+        setShowUserMenu(false);
+      }
+    };
+    
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [showUserMenu]);
   return (
     <>
       <div
         className={`rbt-header-wrapper ${gapSpaceBetween} ${transparent} ${
-          !headerType && isSticky ? "rbt-sticky" : ""
+          isSticky ? "rbt-sticky" : ""
         }`}
+        style={{
+          position: isSticky ? "fixed" : "relative",
+          top: 0,
+          left: 0,
+          right: 0,
+          zIndex: 999,
+          width: "100%",
+          transition: "all 0.3s ease",
+          backgroundColor: "white",
+          boxShadow: isSticky ? "0 4px 10px rgba(0, 0, 0, 0.1)" : "none"
+        }}
       >
+        {/* TopHeader - Sepet ve Hesap Menüsü */}
+        <div className="top-header" style={{ borderBottom: "1px solid #eee", padding: "10px 0" }}>
+          <div className="container">
+            <div className="d-flex justify-content-end align-items-center">
+              <HeaderTopMidThree flexDirection="row-reverse" />
+            </div>
+          </div>
+        </div>
+        
+        {/* Ana Header - Logo ve Navigasyon */}
         <div className="container">
           <div className={`mainbar-row ${navigationEnd} align-items-center`}>
             <div className="header-left rbt-header-content">
@@ -71,24 +110,12 @@ const HeaderSeven = ({
                   </Link>
                 </div>
               </div>
-              {/* TAB ŞEKLİNDE CATEGORİES */}
-              {/* <div className="header-info d-none d-lg-block">
-                <Category />
-              </div> */}
             </div>
 
             <div className="rbt-main-navigation d-none d-xl-block">
               <Nav />
             </div>
             <div className="header-right">
-
-              {/* JOIN NOW BUTONU  */}
-              {/* <div className="rbt-btn-wrapper d-none d-xl-block">
-                <Link className={`rbt-btn ${btnClass}`} href="#">
-                  <span data-text={`${btnText}`}>{btnText}</span>
-                </Link>
-              </div> */}
-
               <div className="mobile-menu-bar d-block d-xl-none">
                 <div className="hamberger">
                   <button
@@ -103,6 +130,7 @@ const HeaderSeven = ({
           </div>
         </div>
       </div>
+      {isSticky && <div style={{ height: "130px" }}></div>}
     </>
   );
 };

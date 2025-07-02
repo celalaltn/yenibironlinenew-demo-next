@@ -1,7 +1,36 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useSelector } from "react-redux";
+import { useState, useEffect } from "react";
+import { studentApi } from "../../services/api";
 
 const StudentDashboardHeader = () => {
+  const { user, isAuthenticated } = useSelector((state) => state.AuthReducer);
+  const [studentStats, setStudentStats] = useState({
+    enrolledCourses: 0,
+    certificates: 0
+  });
+  
+  useEffect(() => {
+    const fetchStudentStats = async () => {
+      if (!isAuthenticated) return;
+      
+      try {
+        // API'den öğrenci istatistiklerini çek
+        const dashboardInfo = await studentApi.getDashboardInfo();
+        
+        setStudentStats({
+          enrolledCourses: dashboardInfo.enrolledCoursesCount || 0,
+          certificates: dashboardInfo.certificatesCount || 0
+        });
+      } catch (err) {
+        console.error("Öğrenci istatistiklerini çekerken hata oluştu:", err);
+      }
+    };
+    
+    fetchStudentStats();
+  }, [isAuthenticated]);
+  
   return (
     <>
       <div className="rbt-dashboard-content-wrapper">
@@ -12,27 +41,27 @@ const StudentDashboardHeader = () => {
               <Image
                 width={300}
                 height={300}
-                src="/images/team/avatar-2.jpg"
-                alt="Instructor"
+                src={user?.profileImage || "/images/team/avatar-2.jpg"}
+                alt="Öğrenci Profili"
               />
             </div>
             <div className="tutor-content">
-              <h5 className="title">Emily Hannah</h5>
+              <h5 className="title">{user ? `${user.firstName} ${user.lastName}` : 'Öğrenci'}</h5>
               <ul className="rbt-meta rbt-meta-white mt--5">
                 <li>
-                  <i className="feather-book"></i>5 Courses Enroled
+                  <i className="feather-book"></i>{studentStats.enrolledCourses} Kayıtlı Kurs
                 </li>
                 <li>
-                  <i className="feather-award"></i>4 Certificate
+                  <i className="feather-award"></i>{studentStats.certificates} Sertifika
                 </li>
               </ul>
             </div>
           </div>
           <div className="rbt-tutor-information-right">
             <div className="tutor-btn">
-              <Link className="rbt-btn btn-md hover-icon-reverse" href="#">
+              <Link className="rbt-btn btn-md hover-icon-reverse" href="/course-filter-one">
                 <span className="icon-reverse-wrapper">
-                  <span className="btn-text">Create Link New Course</span>
+                  <span className="btn-text">Kurs Katalogu</span>
                   <span className="btn-icon">
                     <i className="feather-arrow-right" />
                   </span>
