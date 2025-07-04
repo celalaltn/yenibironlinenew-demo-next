@@ -58,7 +58,7 @@ const MyAccount = ({ account, user }) => {
           id="dashboad"
           role="tabpanel"
         >
-          {account.dashboard.map((info, index) => (
+          {account && account.dashboard && account.dashboard.map ? account.dashboard.map((info, index) => (
             <div className="rbt-my-account-inner" key={index}>
               <h3>Dashboard</h3>
               
@@ -124,7 +124,60 @@ const MyAccount = ({ account, user }) => {
                 </div>
               </div>
             </div>
-          ))}
+          )) : (
+            <div className="rbt-my-account-inner">
+              <h3>Dashboard</h3>
+              <p>Hoş geldiniz! Hesap bilgileriniz yükleniyor...</p>
+              
+              <div className="row g-5 mt--20">
+                <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                  <div className="rbt-counterup rbt-hover-03 border-bottom-gradient">
+                    <div className="inner">
+                      <div className="icon">
+                        <i className="feather-book-open"></i>
+                      </div>
+                      <div className="content">
+                        <h3 className="counter">
+                          <span className="odometer">{studentData.enrolledCourses.length}</span>
+                        </h3>
+                        <span className="subtitle">Kayıtlı Kurslar</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                  <div className="rbt-counterup rbt-hover-03 border-bottom-gradient">
+                    <div className="inner">
+                      <div className="icon">
+                        <i className="feather-calendar"></i>
+                      </div>
+                      <div className="content">
+                        <h3 className="counter">
+                          <span className="odometer">{studentData.events.length}</span>
+                        </h3>
+                        <span className="subtitle">Etkinlikler</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                  <div className="rbt-counterup rbt-hover-03 border-bottom-gradient">
+                    <div className="inner">
+                      <div className="icon">
+                        <i className="feather-shopping-bag"></i>
+                      </div>
+                      <div className="content">
+                        <h3 className="counter">
+                          <span className="odometer">{studentData.orders.length}</span>
+                        </h3>
+                        <span className="subtitle">Siparişler</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
         
         <div className="tab-pane fade" id="my-courses" role="tabpanel">
@@ -333,7 +386,7 @@ const MyAccount = ({ account, user }) => {
                   </tr>
                 </thead>
                 <tbody>
-                  {account.downloads.map((info, index) => (
+                  {account && account.downloads && account.downloads.map ? account.downloads.map((info, index) => (
                     <tr key={index}>
                       <td>{info.name}</td>
                       <td>{info.date}</td>
@@ -344,7 +397,11 @@ const MyAccount = ({ account, user }) => {
                         </Link>
                       </td>
                     </tr>
-                  ))}
+                  )) : (
+                    <tr>
+                      <td colSpan="4">İndirilebilir içerik bulunamadı.</td>
+                    </tr>
+                  )}
                 </tbody>
               </table>
             </div>
