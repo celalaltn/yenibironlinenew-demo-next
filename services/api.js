@@ -105,4 +105,63 @@ export const studentApi = {
   }
 };
 
+// Eğitmen (Instructor) API fonksiyonları
+export const instructorApi = {
+  // Eğitmen dashboard bilgilerini getir
+  getDashboardInfo: async () => {
+    return fetchApi('/api/instructor/dashboard', {
+      method: 'GET'
+    });
+  },
+  
+  // Eğitmenin oluşturduğu kursları getir
+  getCourses: async (page = 1, limit = 10) => {
+    return fetchApi(`/api/instructor/courses?page=${page}&limit=${limit}`, {
+      method: 'GET'
+    });
+  },
+  
+  // Eğitmenin aktif kurslarını getir
+  getActiveCourses: async (page = 1, limit = 10) => {
+    return fetchApi(`/api/instructor/courses/active?page=${page}&limit=${limit}`, {
+      method: 'GET'
+    });
+  },
+  
+  // Eğitmenin taslak kurslarını getir
+  getDraftCourses: async (page = 1, limit = 10) => {
+    return fetchApi(`/api/instructor/courses/draft?page=${page}&limit=${limit}`, {
+      method: 'GET'
+    });
+  },
+  
+  // Eğitmenin siparişlerini getir
+  getOrders: async (page = 1, limit = 10) => {
+    return fetchApi(`/api/instructor/orders?page=${page}&limit=${limit}`, {
+      method: 'GET'
+    });
+  },
+  
+  // Eğitmenin öğrencilerini getir
+  getStudents: async (page = 1, limit = 10) => {
+    return fetchApi(`/api/instructor/students?page=${page}&limit=${limit}`, {
+      method: 'GET'
+    });
+  },
+  
+  // Eğitmenin kazançlarını getir
+  getEarnings: async (period = 'monthly') => {
+    return fetchApi(`/api/instructor/earnings?period=${period}`, {
+      method: 'GET'
+    });
+  },
+  
+  // Eğitmenin değerlendirmelerini getir
+  getReviews: async (page = 1, limit = 10) => {
+    return fetchApi(`/api/instructor/reviews?page=${page}&limit=${limit}`, {
+      method: 'GET'
+    });
+  }
+};
+
 export default fetchApi;

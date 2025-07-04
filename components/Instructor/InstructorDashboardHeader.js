@@ -1,6 +1,9 @@
 import Image from "next/image";
+import { useSelector } from "react-redux";
+import Link from "next/link";
 
 const InstructorDashboardHeader = () => {
+  const user = useSelector(state => state?.AuthReducer?.user || null);
   return (
     <>
       <div className="rbt-dashboard-content-wrapper">
@@ -16,7 +19,7 @@ const InstructorDashboardHeader = () => {
               />
             </div>
             <div className="tutor-content">
-              <h5 className="title">John Due</h5>
+              <h5 className="title">{user ? `${user.firstName} ${user.lastName}` : 'Eğitmen'}</h5>
               <div className="rbt-review">
                 <div className="rating">
                   <i className="fas fa-star" />
@@ -31,9 +34,9 @@ const InstructorDashboardHeader = () => {
           </div>
           <div className="rbt-tutor-information-right">
             <div className="tutor-btn">
-              <a className="rbt-btn btn-md hover-icon-reverse" href="#">
+              <Link className="rbt-btn btn-md hover-icon-reverse" href="/instructor-personal-courses">
                 <span className="icon-reverse-wrapper">
-                  <span className="btn-text">Create a New Course</span>
+                  <span className="btn-text">Yeni Kurs Oluştur</span>
                   <span className="btn-icon">
                     <i className="feather-arrow-right" />
                   </span>
@@ -41,7 +44,7 @@ const InstructorDashboardHeader = () => {
                     <i className="feather-arrow-right" />
                   </span>
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

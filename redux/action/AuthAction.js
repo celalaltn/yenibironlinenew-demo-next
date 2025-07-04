@@ -12,6 +12,10 @@ export const login = (email, password) => async (dispatch) => {
     localStorage.setItem('refreshToken', data.refreshToken);
     localStorage.setItem('user', JSON.stringify(data.user));
     
+    // Ayrıca cookie'lere de kaydet (middleware için gerekli)
+    document.cookie = `token=${data.token}; path=/; max-age=${60*60*24*7}`; // 7 gün
+    document.cookie = `user=${JSON.stringify(data.user)}; path=/; max-age=${60*60*24*7}`; // 7 gün
+    
     dispatch({
       type: 'LOGIN_SUCCESS',
       payload: {
@@ -60,6 +64,10 @@ export const logout = () => async (dispatch) => {
     localStorage.removeItem('token');
     localStorage.removeItem('refreshToken');
     localStorage.removeItem('user');
+    
+    // Cookie'leri temizle
+    document.cookie = 'token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT';
+    document.cookie = 'user=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT';
     
     dispatch({ type: 'LOGOUT' });
   } catch (error) {

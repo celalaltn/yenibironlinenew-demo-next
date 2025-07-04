@@ -8,6 +8,7 @@ const Login = () => {
   // Login state
   const [loginEmail, setLoginEmail] = useState('');
   const [loginPassword, setLoginPassword] = useState('');
+  const [showLoginPassword, setShowLoginPassword] = useState(false);
   const [rememberMe, setRememberMe] = useState(false);
   const [loginLoading, setLoginLoading] = useState(false);
   const [loginError, setLoginError] = useState('');
@@ -18,7 +19,10 @@ const Login = () => {
   const [registerLastName, setRegisterLastName] = useState('');
   const [registerPhoneNumber, setRegisterPhoneNumber] = useState('');
   const [registerPassword, setRegisterPassword] = useState('');
+  const [showRegisterPassword, setShowRegisterPassword] = useState(false);
   const [registerConfirmPassword, setRegisterConfirmPassword] = useState('');
+  const [showRegisterConfirmPassword, setShowRegisterConfirmPassword] = useState(false);
+  const [registerRole, setRegisterRole] = useState('Student');
   const [registerLoading, setRegisterLoading] = useState(false);
   const [registerError, setRegisterError] = useState('');
   const [registerSuccess, setRegisterSuccess] = useState(false);
@@ -32,17 +36,15 @@ const Login = () => {
       return '/';
     }
     
-    // İlk rolü kullan (birden fazla rol olabilir)
-    const primaryRole = user.roles[0];
+    // Ensure roles is an array
+    const roles = Array.isArray(user.roles) ? user.roles : [user.roles];
+    const primaryRole = roles[0];
+    
+    console.log('Redirecting based on role:', primaryRole);
     
     switch(primaryRole) {
-      case 'Admin':
-      case 'SuperAdmin':
-        return '/admin-dashboard';
       case 'Instructor':
         return '/instructor-dashboard';
-      case 'Moderator':
-        return '/moderator-dashboard';
       case 'Student':
       default:
         return '/student-dashboard';
@@ -87,7 +89,8 @@ const Login = () => {
         firstName: registerFirstName,
         lastName: registerLastName,
         phoneNumber: registerPhoneNumber || "", // Boş ise boş string gönder
-        password: registerPassword
+        password: registerPassword,
+        roles: [registerRole] // Seçilen rolü dizide gönder
       };
       
       console.log('Kayıt verileri:', JSON.stringify(userData));
@@ -130,6 +133,7 @@ const Login = () => {
       setRegisterPhoneNumber('');
       setRegisterPassword('');
       setRegisterConfirmPassword('');
+      setRegisterRole('Student');
       setRegisterSuccess(true);
       
       // Kullanıcıya başarılı mesajı göster
@@ -170,16 +174,34 @@ const Login = () => {
               />
               <span className="focus-border"></span>
             </div>
-            <div className="form-group">
+            <div className="form-group position-relative">
               <input
                 name="password"
-                type="password"
+                type={showLoginPassword ? "text" : "password"}
                 placeholder="Şifre *"
                 value={loginPassword}
                 onChange={(e) => setLoginPassword(e.target.value)}
                 required
               />
               <span className="focus-border"></span>
+              <button 
+                type="button" 
+                className="password-toggle" 
+                onClick={() => setShowLoginPassword(!showLoginPassword)}
+                style={{
+                  position: 'absolute',
+                  right: '15px',
+                  top: '50%',
+                  transform: 'translateY(-50%)',
+                  background: 'none',
+                  border: 'none',
+                  cursor: 'pointer',
+                  fontSize: '18px',
+                  color: '#666'
+                }}
+              >
+                <i className={`feather-${showLoginPassword ? 'eye-off' : 'eye'}`}></i>
+              </button>
             </div>
 
             <div className="row mb--30">
@@ -287,28 +309,79 @@ const Login = () => {
               <span className="focus-border"></span>
             </div>
 
-            <div className="form-group">
+            <div className="form-group position-relative">
               <input
                 name="register_password"
-                type="password"
+                type={showRegisterPassword ? "text" : "password"}
                 placeholder="Şifre *"
                 value={registerPassword}
                 onChange={(e) => setRegisterPassword(e.target.value)}
                 required
               />
               <span className="focus-border"></span>
+              <button 
+                type="button" 
+                className="password-toggle" 
+                onClick={() => setShowRegisterPassword(!showRegisterPassword)}
+                style={{
+                  position: 'absolute',
+                  right: '15px',
+                  top: '50%',
+                  transform: 'translateY(-50%)',
+                  background: 'none',
+                  border: 'none',
+                  cursor: 'pointer',
+                  fontSize: '18px',
+                  color: '#666'
+                }}
+              >
+                <i className={`feather-${showRegisterPassword ? 'eye-off' : 'eye'}`}></i>
+              </button>
             </div>
 
-            <div className="form-group">
+            <div className="form-group position-relative">
               <input
                 name="register_conpassword"
-                type="password"
+                type={showRegisterConfirmPassword ? "text" : "password"}
                 placeholder="Şifre Onayı *"
                 value={registerConfirmPassword}
                 onChange={(e) => setRegisterConfirmPassword(e.target.value)}
                 required
               />
               <span className="focus-border"></span>
+              <button 
+                type="button" 
+                className="password-toggle" 
+                onClick={() => setShowRegisterConfirmPassword(!showRegisterConfirmPassword)}
+                style={{
+                  position: 'absolute',
+                  right: '15px',
+                  top: '50%',
+                  transform: 'translateY(-50%)',
+                  background: 'none',
+                  border: 'none',
+                  cursor: 'pointer',
+                  fontSize: '18px',
+                  color: '#666'
+                }}
+              >
+                <i className={`feather-${showRegisterConfirmPassword ? 'eye-off' : 'eye'}`}></i>
+              </button>
+            </div>
+
+            <div className="form-group">
+              <label className="mb-2">Hesap Türü *</label>
+              <div className="rbt-modern-select bg-transparent">
+                <select 
+                  className="w-100"
+                  value={registerRole}
+                  onChange={(e) => setRegisterRole(e.target.value)}
+                  required
+                >
+                  <option value="Student">Öğrenci</option>
+                  <option value="Instructor">Eğitmen</option>
+                </select>
+              </div>
             </div>
 
             <div className="form-submit-group">
