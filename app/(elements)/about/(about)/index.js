@@ -29,58 +29,14 @@ const AboutPage = () => {
          
           <BreadCrumb title="About" text="About" />
 
-          <div className="rbt-about-area about-style-1  rbt-section-gap">
+          <div className="rbt-about-area about-style-1 rbt-section-gap">
             <ParallaxProvider>
               <About />
             </ParallaxProvider>
           </div>
 
-          <div className="rbt-about-area about-style-1 bg-color-extra2 rbt-section-gap">
-            <div className="container">
-              <ParallaxProvider>
-                <AboutTwo />
-              </ParallaxProvider>
-            </div>
-          </div>
-
-          <div className="rbt-about-area about-style-1  rbt-section-gap">
-            <div className="container">
-              <AboutThree />
-            </div>
-          </div>
-
-          <div className="rbt-about-area about-style-1 bg-color-extra2 rbt-section-gap">
-            <div className="container">
-              <AboutFour />
-            </div>
-          </div>
-
-          <div className="rbt-about-area about-style-1 bg-color-extra2 rbt-section-gap">
-            <div className="container">
-              <AboutFive />
-            </div>
-          </div>
-
-          <div className="rbt-about-area about-style-1  rbt-section-gap">
-            <div className="container">
-              <AboutSix
-                btnClass="radius rbt-marquee-btn marquee-text-y"
-                btnText="Learn More"
-              />
-            </div>
-          </div>
-
-          <div className="rbt-about-area about-style-1 bg-color-extra2 rbt-section-gap">
-            <div className="container">
-              <AboutSaven />
-            </div>
-          </div>
-
-          <div className="rbt-about-area about-style-1  rbt-section-gap">
-            <div className="container">
-              <AboutEight />
-            </div>
-          </div>
+          {/* Additional about sections have been temporarily removed 
+             because the components don't exist in the project yet */}
 
           
         </Context>
