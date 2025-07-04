@@ -2,10 +2,13 @@ import React, { useState, useEffect } from "react";
 import CounterWidget from "./Dashboard-Section/widgets/CounterWidget";
 import MyCourses from "./Dashboard-Section/MyCourses";
 import { instructorApi } from "../../services/api";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
+import MyAccount from "../My-Account/MyAccount";
+import AccountInfo from "../../data/myAccount.json";
 
 const Dashboard = () => {
   const [loading, setLoading] = useState(false);
+  const [activeTab, setActiveTab] = useState("dashboard");
   const [dashboardData, setDashboardData] = useState({
     totalCourses: 0,
     activeCourses: 0,
@@ -17,6 +20,7 @@ const Dashboard = () => {
   });
   
   const user = useSelector(state => state?.AuthReducer?.user || null);
+  const dispatch = useDispatch();
   
   useEffect(() => {
     const fetchInstructorData = async () => {
@@ -50,84 +54,115 @@ const Dashboard = () => {
   
   return (
     <>
-      <div className="rbt-dashboard-content  rbt-shadow-box mb--60">
-        <div className="content">
-          <div className="section-title">
-            <h4 className="rbt-title-style-3">Eğitmen Paneli</h4>
-            {loading && <div className="rbt-badge-2 ms-2">Yükleniyor...</div>}
+      <div className="rbt-tab-wrapper rbt-dashboard-tabs">
+        <div className="rbt-nav-tabs mb--30">
+          <ul className="nav nav-tabs" role="tablist">
+            <li className="nav-item">
+              <button 
+                className={`nav-link ${activeTab === "dashboard" ? "active" : ""}`}
+                onClick={() => setActiveTab("dashboard")}
+              >
+                <i className="feather-home"></i> Eğitmen Paneli
+              </button>
+            </li>
+            <li className="nav-item">
+              <button 
+                className={`nav-link ${activeTab === "account" ? "active" : ""}`}
+                onClick={() => setActiveTab("account")}
+              >
+                <i className="feather-user"></i> Hesabım
+              </button>
+            </li>
+          </ul>
+        </div>
+        
+        <div className="tab-content">
+          <div className={`tab-pane fade ${activeTab === "dashboard" ? "show active" : ""}`}>
+            <div className="rbt-dashboard-content rbt-shadow-box mb--60">
+              <div className="content">
+                <div className="section-title">
+                  <h4 className="rbt-title-style-3">Eğitmen Paneli</h4>
+                  {loading && <div className="rbt-badge-2 ms-2">Yükleniyor...</div>}
+                </div>
+                <div className="row g-5">
+                  <div className="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <CounterWidget
+                      counterStyle="two"
+                      styleClass="bg-primary-opacity"
+                      iconClass="bg-primary-opacity"
+                      numberClass="color-primary"
+                      icon="feather-book-open"
+                      title="Kayıtlı Kurslar"
+                      value={dashboardData.totalCourses}
+                    />
+                  </div>
+                  <div className="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <CounterWidget
+                      counterStyle="two"
+                      styleClass="bg-secondary-opacity"
+                      iconClass="bg-secondary-opacity"
+                      numberClass="color-secondary"
+                      icon="feather-monitor"
+                      title="Aktif Kurslar"
+                      value={dashboardData.activeCourses}
+                    />
+                  </div>
+                  <div className="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <CounterWidget
+                      counterStyle="two"
+                      styleClass="bg-violet-opacity"
+                      iconClass="bg-violet-opacity"
+                      numberClass="color-violet"
+                      icon="feather-award"
+                      title="Tamamlanan Kurslar"
+                      value={dashboardData.completedCourses}
+                    />
+                  </div>
+                  <div className="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <CounterWidget
+                      counterStyle="two"
+                      styleClass="bg-pink-opacity"
+                      iconClass="bg-pink-opacity"
+                      numberClass="color-pink"
+                      icon="feather-users"
+                      title="Toplam Öğrenci"
+                      value={dashboardData.totalStudents}
+                    />
+                  </div>
+                  <div className="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <CounterWidget
+                      counterStyle="two"
+                      styleClass="bg-coral-opacity"
+                      iconClass="bg-coral-opacity"
+                      numberClass="color-coral"
+                      icon="feather-gift"
+                      title="Toplam Değerlendirme"
+                      value={dashboardData.totalReviews}
+                    />
+                  </div>
+                  <div className="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <CounterWidget
+                      counterStyle="two"
+                      styleClass="bg-warning-opacity"
+                      iconClass="bg-warning-opacity"
+                      numberClass="color-warning"
+                      icon="feather-dollar-sign"
+                      title="Toplam Kazanç"
+                      value={dashboardData.totalEarnings}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <MyCourses />
           </div>
-          <div className="row g-5">
-            <div className="col-lg-4 col-md-4 col-sm-6 col-12">
-              <CounterWidget
-                counterStyle="two"
-                styleClass="bg-primary-opacity"
-                iconClass="bg-primary-opacity"
-                numberClass="color-primary"
-                icon="feather-book-open"
-                title="Enrolled Courses"
-                value={dashboardData.totalCourses}
-              />
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6 col-12">
-              <CounterWidget
-                counterStyle="two"
-                styleClass="bg-secondary-opacity"
-                iconClass="bg-secondary-opacity"
-                numberClass="color-secondary"
-                icon="feather-monitor"
-                title="ACTIVE COURSES"
-                value={dashboardData.activeCourses}
-              />
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6 col-12">
-              <CounterWidget
-                counterStyle="two"
-                styleClass="bg-violet-opacity"
-                iconClass="bg-violet-opacity"
-                numberClass="color-violet"
-                icon="feather-award"
-                title="Completed Courses"
-                value={dashboardData.completedCourses}
-              />
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6 col-12">
-              <CounterWidget
-                counterStyle="two"
-                styleClass="bg-pink-opacity"
-                iconClass="bg-pink-opacity"
-                numberClass="color-pink"
-                icon="feather-users"
-                title="Total Students"
-                value={dashboardData.totalStudents}
-              />
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6 col-12">
-              <CounterWidget
-                counterStyle="two"
-                styleClass="bg-coral-opacity"
-                iconClass="bg-coral-opacity"
-                numberClass="color-coral"
-                icon="feather-gift"
-                title="Total Reviews"
-                value={dashboardData.totalReviews}
-              />
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6 col-12">
-              <CounterWidget
-                counterStyle="two"
-                styleClass="bg-warning-opacity"
-                iconClass="bg-warning-opacity"
-                numberClass="color-warning"
-                icon="feather-dollar-sign"
-                title="Total Earnings"
-                value={dashboardData.totalEarnings}
-              />
-            </div>
+          
+          <div className={`tab-pane fade ${activeTab === "account" ? "show active" : ""}`}>
+            <MyAccount account={AccountInfo} user={user} />
           </div>
         </div>
       </div>
-
-      <MyCourses />
     </>
   );
 };

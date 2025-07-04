@@ -2,67 +2,62 @@
   "siderbar": [
     {
       "link": "/instructor-dashboard",
-      "text": "Dashboard",
+      "text": "Kontrol Paneli",
       "icon": "feather-home"
     },
     {
-      "link": "/instructor-profile",
-      "text": "My Profile",
+      "link": "/instructor-dashboard",
+      "text": "Hesabım",
       "icon": "feather-user"
     },
     {
       "link": "/instructor-enrolled-course",
-      "text": "Enrolled Courses",
+      "text": "Kayıtlı Kurslarım",
       "icon": "feather-book-open"
     },
     {
       "link": "/instructor-wishlist",
-      "text": "Wishlist",
+      "text": "İstek Listem",
       "icon": "feather-bookmark"
     },
     {
       "link": "/instructor-reviews",
-      "text": "Reviews",
+      "text": "Değerlendirmelerim",
       "icon": "feather-star"
     },
     {
       "link": "/instructor-quiz-attempts",
-      "text": "My Quiz Attempts",
+      "text": "Quiz Denemelerim",
       "icon": "feather-help-circle"
     },
     {
       "link": "/instructor-order-history",
-      "text": "Order History",
+      "text": "Sipariş Geçmişim",
       "icon": "feather-shopping-bag"
     },
     {
       "link": "/instructor-personal-courses",
-      "text": "My Courses",
+      "text": "Kurslarım",
       "icon": "feather-monitor"
     },
     {
       "link": "/instructor-announcements",
-      "text": "Announcements",
+      "text": "Duyurular",
       "icon": "feather-volume-2"
     },
     {
-      "link": "/instructor-quiz-attempts",
-      "text": "Quiz Attempts",
-      "icon": "feather-message-square"
-    },
-    {
       "link": "/instructor-assignments",
-      "text": "Assignments",
+      "text": "Ödevler",
       "icon": "feather-list"
     },
     {
       "link": "/instructor-settings",
-      "text": "Settings",
+      "text": "Ayarlar",
       "icon": "feather-settings"
     },
     {
       "link": "/",
-      "text": "Logout",
+      "text": "Çıkış Yap",
       "icon": "feather-log-out"
     }
   ]

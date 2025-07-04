@@ -3,9 +3,11 @@
 import { usePathname } from "next/navigation";
 import SidebarData from "../../data/dashboard/instructor/siderbar.json";
 import Link from "next/link";
+import { useSelector } from "react-redux";
 
 const InstructorDashboardSidebar = () => {
   const pathname = usePathname();
+  const user = useSelector(state => state?.AuthReducer?.user || null);
 
   return (
     <>
@@ -14,7 +16,7 @@ const InstructorDashboardSidebar = () => {
           <div className="content-item-content">
             <div className="rbt-default-sidebar-wrapper">
               <div className="section-title mb--20">
-                <h6 className="rbt-title-style-2">Welcome, Rafi</h6>
+                <h6 className="rbt-title-style-2">Hoş Geldiniz, {user ? `${user.firstName}` : 'Kullanıcı'}</h6>
               </div>
               <nav className="mainmenu-nav">
                 <ul className="dashboard-mainmenu rbt-default-sidebar-list nav-tabs">
@@ -36,13 +38,13 @@ const InstructorDashboardSidebar = () => {
               </nav>
 
               <div className="section-title mt--40 mb--20">
-                <h6 className="rbt-title-style-2">Instructor</h6>
+                <h6 className="rbt-title-style-2">Eğitmen Paneli</h6>
               </div>
 
               <nav className="mainmenu-nav">
                 <ul className="dashboard-mainmenu rbt-default-sidebar-list">
                   {SidebarData &&
-                    SidebarData.siderbar.slice(7, 11).map((data, index) => (
+                    SidebarData.siderbar.slice(7, 10).map((data, index) => (
                       <li key={index}>
                         <Link
                           href={data.link}
@@ -59,13 +61,13 @@ const InstructorDashboardSidebar = () => {
               </nav>
 
               <div className="section-title mt--40 mb--20">
-                <h6 className="rbt-title-style-2">User</h6>
+                <h6 className="rbt-title-style-2">Hesap Ayarları</h6>
               </div>
 
               <nav className="mainmenu-nav">
                 <ul className="dashboard-mainmenu rbt-default-sidebar-list">
                   {SidebarData &&
-                    SidebarData.siderbar.slice(11, 13).map((data, index) => (
+                    SidebarData.siderbar.slice(10, 12).map((data, index) => (
                       <li key={index}>
                         <Link
                           href={data.link}

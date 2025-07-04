@@ -15,7 +15,7 @@ const InstructorDashboardHeader = () => {
                 width={300}
                 height={300}
                 src="/images/team/avatar.jpg"
-                alt="Instructor"
+                alt="Eğitmen"
               />
             </div>
             <div className="tutor-content">
@@ -28,7 +28,7 @@ const InstructorDashboardHeader = () => {
                   <i className="fas fa-star" />
                   <i className="fas fa-star" />
                 </div>
-                <span className="rating-count"> (15 Reviews)</span>
+                <span className="rating-count"> (15 Değerlendirme)</span>
               </div>
             </div>
           </div>

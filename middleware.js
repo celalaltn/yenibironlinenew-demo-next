@@ -4,6 +4,29 @@ export function middleware(request) {
   // Get the pathname of the request
   const path = request.nextUrl.pathname;
   
+  // Hesabım sayfasına giden istekleri instructor-dashboard'a yönlendir
+  if (path.startsWith('/my-account')) {
+    // Kullanıcı bilgilerini al
+    const userDataCookie = request.cookies.get('user')?.value;
+    
+    if (userDataCookie) {
+      try {
+        const userData = JSON.parse(userDataCookie);
+        const userRoles = Array.isArray(userData.roles) ? userData.roles : 
+                         (userData.roles ? [userData.roles] : []);
+        
+        // Eğitmen rolü varsa instructor-dashboard'a, yoksa student-dashboard'a yönlendir
+        if (userRoles.includes('Instructor')) {
+          return NextResponse.redirect(new URL('/instructor-dashboard', request.url));
+        } else if (userRoles.includes('Student')) {
+          return NextResponse.redirect(new URL('/student-dashboard', request.url));
+        }
+      } catch (e) {
+        console.error('Failed to parse user data from cookie:', e);
+      }
+    }
+  }
+  
   // Define protected routes and their required roles
   const instructorRoutes = [
     '/instructor-dashboard',
@@ -88,6 +111,7 @@ export function middleware(request) {
 // Configure the middleware to run on specific paths
 export const config = {
   matcher: [
+    '/my-account/:path*',
     '/instructor-dashboard/:path*',
     '/instructor-profile/:path*',
     '/instructor-enrolled-course/:path*',

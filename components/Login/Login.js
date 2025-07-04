@@ -40,14 +40,15 @@ const Login = () => {
     const roles = Array.isArray(user.roles) ? user.roles : [user.roles];
     const primaryRole = roles[0];
     
-    console.log('Redirecting based on role:', primaryRole);
+    console.log('Kullanıcı rolüne göre yönlendiriliyor:', primaryRole);
     
     switch(primaryRole) {
       case 'Instructor':
-        return '/instructor-dashboard';
+        return '/instructor-dashboard'; // Eğitmen paneline yönlendir
       case 'Student':
+        return '/student-dashboard'; // Öğrenci paneline yönlendir
       default:
-        return '/student-dashboard';
+        return '/';
     }
   };
   
